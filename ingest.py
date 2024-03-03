@@ -64,7 +64,6 @@ def load_documents(source_dir: str) -> List[Document]:
 
     return results
 
-
 def main():
     # Load environment variables
     persist_directory = os.environ.get('PERSIST_DIRECTORY')
@@ -88,7 +87,6 @@ def main():
     db = Chroma.from_documents(texts, embeddings, persist_directory=persist_directory, client_settings=CHROMA_SETTINGS)
     db.persist()
     db = None
-
 
 if __name__ == "__main__":
     main()

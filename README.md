@@ -17,10 +17,10 @@ pip install -r requirements.txt
 
 Then, download the LLM model and place it in a directory of your choice:
 
-- Default to [ggml-gpt4all-j-v1.3-groovy.bin](https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin).
-- [llama-2-7b-chat.Q4_K_M.gguf](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_K_M.gguf)
+- Default to [llama-2-7b-chat.Q4_K_M.gguf](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_K_M.gguf).
+- [ggml-gpt4all-j-v1.3-groovy.bin](https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin).
 
-If you prefer a different GPT4All-J compatible model, just download it and reference it in your `.env` file.
+If you prefer a different GPT4All-J or Llama2 compatible model, just download it and reference it in your `.env` file.
 
 Rename `example.env` to `.env` and edit the variables appropriately.
 
@@ -30,6 +30,8 @@ PERSIST_DIRECTORY: is the folder you want your vectorstore in
 MODEL_PATH: Path to your GPT4All or LlamaCpp supported LLM
 MODEL_N_CTX: Maximum token limit for the LLM model
 EMBEDDINGS_MODEL_NAME: SentenceTransformers embeddings model name (see https://www.sbert.net/docs/pretrained_models.html)
+N_GPU_LAYERS: determines how many layers of the model are offloaded to your GPU.
+N_BATCH: how many tokens are processed in parallel.
 ```
 
 ## Test dataset
