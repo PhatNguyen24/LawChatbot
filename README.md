@@ -3,7 +3,8 @@
 Ask questions to your documents without an internet connection, using the power of LLMs. 100% private, no data leaves your execution environment at any point. You can ingest documents and ask questions without an internet connection!
 
 Built with [LangChain](https://github.com/hwchase17/langchain), [GPT4All](https://github.com/nomic-ai/gpt4all), [LlamaCpp](https://github.com/ggerganov/llama.cpp), [Chroma](https://www.trychroma.com/), [LLama2](https://llama.meta.com/) and [ChatGPT](https://chat.openai.com/)
-<!-- 
+
+<!--
 <img width="902" alt="demo" src="https://user-images.githubusercontent.com/721666/236942256-985801c9-25b9-48ef-80be-3acbb4575164.png"> -->
 
 # Environment Setup
@@ -44,7 +45,6 @@ The supported extensions are:
 - `.csv`: CSV,
 - `.docx`: Word Document,
 - `.doc`: Word Document,
-- `.eml`: Email,
 - `.html`: HTML File,
 - `.md`: Markdown,
 - `.pdf`: Portable Document Format (PDF),
@@ -69,7 +69,7 @@ Note: during the ingest process no data leaves your local environment. You could
 In order to ask a question, run a command like:
 
 ```shell
-python privateGPT.py
+python run.py
 ```
 
 And wait for the script to require your input.
