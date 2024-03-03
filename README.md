@@ -19,6 +19,7 @@ Then, download the LLM model and place it in a directory of your choice:
 
 - Default to [llama-2-7b-chat.Q4_K_M.gguf](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_K_M.gguf).
 - [ggml-gpt4all-j-v1.3-groovy.bin](https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin).
+- Or, get the chatgpt api key variable and replace it with the OPENAI_API_KEY variable in the file .env [Key](https://platform.openai.com/api-keys).
 
 If you prefer a different GPT4All-J or Llama2 compatible model, just download it and reference it in your `.env` file.
 
@@ -80,7 +81,7 @@ And wait for the script to require your input.
 > Enter a query:
 ```
 
-Hit enter. You'll need to wait 20-30 seconds (depending on your machine) while the LLM model consumes the prompt and prepares the answer. Once done, it will print the answer and the 4 sources it used as context from your documents; you can then ask another question without re-running the script, just wait for the prompt again.
+Hit enter. You'll need to wait 1-30 seconds (depending on your machine) while the LLM model consumes the prompt and prepares the answer. Once done, it will print the answer and the 4 sources it used as context from your documents; you can then ask another question without re-running the script, just wait for the prompt again.
 
 Note: you could turn off your internet connection, and the script inference would still work. No data gets out of your local environment.
 
