@@ -43,14 +43,14 @@ def stream(input_text):
 # def index():
 #     return render_template('index.html')
 
-@app.template_filter('add_hours')
-def add_hours(dt):
-    return dt + timedelta(hours=7)
+# @app.template_filter('add_hours')
+# def add_hours(dt):
+#     return dt + timedelta(hours=7)
 
-def get_current_date():
-    return {'current_date': datetime.today().strftime('%Y-%m-%d %H:%M:%S')}
+# def get_current_date():
+#     return {'current_date': datetime.today().strftime('%Y-%m-%d %H:%M:%S')}
 
-app.context_processor(get_current_date) 
+# app.context_processor(get_current_date) 
 
 # Hàm chuyển đổi tên người dùng
 def convert_name_to_abbreviation(name):
@@ -71,7 +71,6 @@ def completion_api():
     if request.method == "POST":
         data = request.form
         input_text = data['input_text']
-        # print(input_text)
         return Response(stream(input_text), mimetype='text/event-stream')
     else:
         return Response(None, mimetype='text/event-stream')

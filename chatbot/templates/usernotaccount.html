@@ -75,14 +75,13 @@
   function scrollBottom() {
     scrollableContent.scrollTop = scrollableContent.scrollHeight;
   }
-  // Gửi tin nhắn
+// Gửi tin nhắn
 const conversationContainer = document.querySelector('.user-chatPDF-conversation');
 var searchForm = document.getElementById('input-form');
 searchForm.addEventListener('submit', async function(event) {
   event.preventDefault();
   const user_chat = messageInput.value;
-  let receivedResponse = false;
-  messageInput.value = '';
+  
   // Tạo div chứa câu hỏi của người dùng
   const userChatDiv = document.createElement('div');
   userChatDiv.className = 'user-chat';
@@ -134,17 +133,11 @@ searchForm.addEventListener('submit', async function(event) {
       const chatItemMessageAI = chatChatDiv.querySelector('.chat-item-messageAI');
       chatItemMessageAI.innerHTML += text; 
 
-      // Kiểm tra nếu chưa nhận được câu trả lời từ server
-      if (!receivedResponse) {
-        receivedResponse = true; // Đặt biến receivedResponse thành true
-        console.log(receivedResponse);
-        // Loại bỏ biểu tượng loading
-        // const chatItemMessageAI = chatChatDiv.querySelector('.chat-item-messageAI');
-        // const iconSpinner = chatItemMessageAI.querySelector('i.fa-spinner');
-        // if (iconSpinner) {
-        //   iconSpinner.parentNode.removeChild(iconSpinner);
-        // }
-      }
+      // Loại bỏ class icon
+      // const iconSpinner = chatItemMessageAI.querySelector('i.fa-spinner');
+      // if (iconSpinner) {
+      //   iconSpinner.classList.remove('fa-spin');
+      // }
 
       scrollBottom();
     }
@@ -152,7 +145,6 @@ searchForm.addEventListener('submit', async function(event) {
     console.error(error);
   }
 });
-
 
 </script>
 {% endblock %}
