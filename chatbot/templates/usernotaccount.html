@@ -82,6 +82,7 @@ searchForm.addEventListener('submit', async function(event) {
   event.preventDefault();
   const user_chat = messageInput.value;
   let receivedResponse = false;
+  messageInput.value = '';
   // Tạo div chứa câu hỏi của người dùng
   const userChatDiv = document.createElement('div');
   userChatDiv.className = 'user-chat';
