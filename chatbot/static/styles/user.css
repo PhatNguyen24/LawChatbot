@@ -188,10 +188,6 @@
 }
 
 .background-image {
-    background-image: url('../images/logo.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     width: 400px;
     height: 400px;
@@ -326,7 +322,7 @@
 
 }
 
-.chatPDF-message textarea {
+.chatPDF-message textarea, .chatPDF-message-form textarea {
     width: 100% !important;
     all: unset;
     padding: 6px 0;
@@ -338,6 +334,30 @@
 .chatPDF-message-btn {
     all: unset;
     color: #757575;
+}
+
+.chatPDF-message-usernotaccount{
+    margin: 32px 150px;
+    bottom: 32px;
+    position: sticky;
+    z-index: 1;
+    padding: 0 16px;
+    /* position: relative; */
+}
+
+.chatPDF-message-form{
+    width: 100%;
+    border: 2px solid var(--primary-color) !important;
+    bottom: 32px;
+    border-radius: 25px;
+    cursor: text;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    border: 1px solid #545456;
+    padding: 0 16px;
+    background-color: white;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.3);
 }
 
 .chat-volume{
@@ -563,3 +583,73 @@
     margin-right: 16px;
 }
 
+.optionAI{  
+    /* width: 120px;    */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.optionAI-list{
+    display: none;
+    border-radius: 10px;
+    width: 130px;
+    margin-bottom: 120px;
+    position: absolute;
+    background-color: #fff;
+    
+
+}
+
+.optionAI-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    background-color: var(--primary-color-2);
+    border-radius: 25px;
+    
+}
+
+.optionAI-box:hover .optionAI-hover{
+    display: flex;
+}
+
+.optionAI-box span{
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 8px 10px;
+    color: var(--white-color);
+    background-color: var(--primary-color-2);
+}
+
+.optionAI-item{
+    cursor: pointer;
+    padding: 4px;
+    text-align: center;
+}
+
+.optionAI-item:hover{
+    background-color: #eae4e4;
+}
+
+.optionAI-item:hover:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.optionAI-item:hover:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.optionAI-hover{
+    padding-right: 10px;
+    width: 80px;
+    display: none;
+}
+
+.optionAI-hover.show {
+    display: flex;
+}

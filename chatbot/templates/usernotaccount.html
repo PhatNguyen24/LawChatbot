@@ -44,18 +44,30 @@
     </div>
     <div class="background-image">
     </div>
-    <!-- <div class="chatPDF-message">
-      <textarea id="messageInput" rows="1" placeholder="Send a message" class=""></textarea>
-      <button class="chatPDF-message-btn" id="sendMessageButton">
-        <i class="fas fa-play"></i>
-      </button>
-    </div> -->
-    <form class="chatPDF-message" id="input-form" method="POST" class="d-flex">
-      <input placeholder="Send a message" type="text" id="messageInput" name="input_text" maxlength="500" class="d-flex">
-      <button class="chatPDF-message-btn" id="sendMessageButton">
-        <i class="fas fa-play"></i>
-      </button>
-    </form>
+    <div class="d-flex chatPDF-message-usernotaccount">
+      <div class="optionAI">
+        <ul class="optionAI-list">
+          <li class="optionAI-item">
+            GPT4All
+          </li>
+          <li class="optionAI-item" style="border-top: 1px solid #ccc">
+            Llama2
+          </li>
+        </ul>
+        <span class="optionAI-box">
+          <span>++</span>
+          <div class="optionAI-hover">
+            Option AI
+          </div>
+        </span>
+      </div>
+      <form class="chatPDF-message-form" id="input-form" method="POST" class="d-flex">
+        <textarea type="text" id="messageInput" name="input_text" rows="1" placeholder="Send a message" class="d-flex"></textarea>
+        <button class="chatPDF-message-btn" id="sendMessageButton">
+          <i class="fas fa-play"></i>
+        </button>
+      </form>
+    </div>
   </div>
 </div>
 
@@ -92,7 +104,7 @@ searchForm.addEventListener('submit', async function(event) {
         ${user_chat}
       </p>
     </div>
-    <div class="chat-tk">
+    <div class="chat-tk" id="scrollable-content">
       <span class="username">
         <i class="fa-solid fa-user"></i>
       </span>
@@ -112,7 +124,7 @@ searchForm.addEventListener('submit', async function(event) {
     </div>
     <div class="chat-item">
       <p class="chat-item-messageAI">
-        <i class="fa-solid fa-spinner fa-spin"></i>
+        <i class="fa-solid fa-spinner fa-spin icon-spinner"></i>
       </p>
     </div>
   `;
@@ -127,7 +139,7 @@ searchForm.addEventListener('submit', async function(event) {
     const reader = response.body.getReader();
     while (true) {
       const {done, value} = await reader.read(); 
-      if (done) break; 
+      if (done) break;  
       const text = new TextDecoder().decode(value); 
       
       // Tìm câu trả lời của bot và thêm nội dung
@@ -136,23 +148,36 @@ searchForm.addEventListener('submit', async function(event) {
 
       // Kiểm tra nếu chưa nhận được câu trả lời từ server
       if (!receivedResponse) {
-        receivedResponse = true; // Đặt biến receivedResponse thành true
-        console.log(receivedResponse);
-        // Loại bỏ biểu tượng loading
-        // const chatItemMessageAI = chatChatDiv.querySelector('.chat-item-messageAI');
-        // const iconSpinner = chatItemMessageAI.querySelector('i.fa-spinner');
-        // if (iconSpinner) {
-        //   iconSpinner.parentNode.removeChild(iconSpinner);
-        // }
-      }
+    receivedResponse = true; // Đặt biến receivedResponse thành true
+    console.log(receivedResponse);
+    // Loại bỏ biểu tượng loading nếu có giá trị text
+    if (text.trim() !== '') {
+        const iconSpinner = chatChatDiv.querySelector('.icon-spinner');
+        if (iconSpinner) {
+            iconSpinner.parentNode.removeChild(iconSpinner);
+        }
+    }
+}
 
-      scrollBottom();
+scrollBottom();
     }
   } catch (error) {
     console.error(error);
   }
 });
 
-
+</script>
+<script>
+  const optionAI = document.querySelector(".optionAI-box");
+  const optionAIList = document.querySelector(".optionAI-list")
+  const optionAIHover = document.querySelector(".optionAI-hover")
+  optionAI.addEventListener('click', function(){
+    optionAIList.style.display = "block";
+    optionAIHover.classList.toggle('show');
+    setTimeout(function(){
+    optionAIList.style.display = "none";
+    optionAIHover.classList.remove('show');
+    }, 4000)
+  })
 </script>
 {% endblock %}
