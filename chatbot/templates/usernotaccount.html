@@ -87,14 +87,13 @@
   function scrollBottom() {
     scrollableContent.scrollTop = scrollableContent.scrollHeight;
   }
-  // Gửi tin nhắn
+// Gửi tin nhắn
 const conversationContainer = document.querySelector('.user-chatPDF-conversation');
 var searchForm = document.getElementById('input-form');
 searchForm.addEventListener('submit', async function(event) {
   event.preventDefault();
   const user_chat = messageInput.value;
-  let receivedResponse = false;
-  messageInput.value = '';
+  
   // Tạo div chứa câu hỏi của người dùng
   const userChatDiv = document.createElement('div');
   userChatDiv.className = 'user-chat';
@@ -148,16 +147,15 @@ searchForm.addEventListener('submit', async function(event) {
 
       // Kiểm tra nếu chưa nhận được câu trả lời từ server
       if (!receivedResponse) {
-    receivedResponse = true; // Đặt biến receivedResponse thành true
-    console.log(receivedResponse);
-    // Loại bỏ biểu tượng loading nếu có giá trị text
-    if (text.trim() !== '') {
-        const iconSpinner = chatChatDiv.querySelector('.icon-spinner');
-        if (iconSpinner) {
-            iconSpinner.parentNode.removeChild(iconSpinner);
-        }
-    }
-}
+        receivedResponse = true; // Đặt biến receivedResponse thành true
+        console.log(receivedResponse);
+        // Loại bỏ biểu tượng loading
+        // const chatItemMessageAI = chatChatDiv.querySelector('.chat-item-messageAI');
+        // const iconSpinner = chatItemMessageAI.querySelector('i.fa-spinner');
+        // if (iconSpinner) {
+        //   iconSpinner.parentNode.removeChild(iconSpinner);
+        // }
+      }
 
 scrollBottom();
     }
@@ -166,18 +164,6 @@ scrollBottom();
   }
 });
 
-</script>
-<script>
-  const optionAI = document.querySelector(".optionAI-box");
-  const optionAIList = document.querySelector(".optionAI-list")
-  const optionAIHover = document.querySelector(".optionAI-hover")
-  optionAI.addEventListener('click', function(){
-    optionAIList.style.display = "block";
-    optionAIHover.classList.toggle('show');
-    setTimeout(function(){
-    optionAIList.style.display = "none";
-    optionAIHover.classList.remove('show');
-    }, 4000)
-  })
+
 </script>
 {% endblock %}

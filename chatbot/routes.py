@@ -71,7 +71,6 @@ def completion_api():
     if request.method == "POST":
         data = request.form
         input_text = data['input_text']
-        # print(input_text)
         return Response(stream(input_text), mimetype='text/event-stream')
     else:
         return Response(None, mimetype='text/event-stream')
