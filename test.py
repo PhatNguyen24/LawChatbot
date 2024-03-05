@@ -26,7 +26,6 @@ def prompt(query):
      prompt = gen_prompt(docs, query)
      return prompt
 
-
 def stream(input_text):
         completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[
             {"role": "system", "content": "You're an assistant."},

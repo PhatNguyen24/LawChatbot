@@ -55,9 +55,9 @@
           </li>
         </ul> 
         <span class="optionAI-box">
-          <span>++</span>
+          <span>Model</span>
           <div class="optionAI-hover">
-            Option AI
+            GPT4All
           </div>
         </span>
       </div>
@@ -94,6 +94,10 @@ searchForm.addEventListener('submit', async function(event) {
   event.preventDefault();
   var formData = new FormData(searchForm);
   formData.append('input_text', searchForm.elements.input_text.value);
+  if (selectedModel !== '') {
+    formData.append('model', selectedModel); // Thêm tên model vào FormData
+  }
+  
   const user_chat = messageInput.value;
   let receivedResponse = false;
   messageInput.value = '';
@@ -169,9 +173,23 @@ scrollBottom();
 
 </script>
 <script>
+  let selectedModel = 'GPT4All';
   const optionAI = document.querySelector(".optionAI-box");
-  const optionAIList = document.querySelector(".optionAI-list")
-  const optionAIHover = document.querySelector(".optionAI-hover")
+  const optionAIList = document.querySelector(".optionAI-list");
+  const optionAIHover = document.querySelector(".optionAI-hover");
+  
+  // Lắng nghe sự kiện click vào một mục trong danh sách
+  optionAIList.addEventListener('click', function(event) {
+    // Kiểm tra xem phần tử được click là một mục trong danh sách
+    if (event.target.classList.contains('optionAI-item')) {
+      selectedModel = event.target.textContent.trim(); 
+      // Lấy nội dung của mục được click
+      const modelName = event.target.textContent.trim();
+      // Thay đổi nội dung của optionAI-hover thành tên model được chọn
+      optionAIHover.textContent = modelName;
+    }
+  });
+
   optionAI.addEventListener('click', function(){
     optionAIList.style.display = "block";
     optionAIHover.classList.toggle('show');
@@ -179,6 +197,7 @@ scrollBottom();
     optionAIList.style.display = "none";
     optionAIHover.classList.remove('show');
     }, 4000)
-  })
+  });
 </script>
+
 {% endblock %}

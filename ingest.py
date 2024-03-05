@@ -5,6 +5,8 @@ from typing import List
 from dotenv import load_dotenv
 from multiprocessing import Pool
 from tqdm import tqdm
+from pdf2image import convert_from_path
+import pytesseract
 
 from langchain.document_loaders import (
     CSVLoader,
@@ -64,6 +66,8 @@ def load_documents(source_dir: str) -> List[Document]:
 
     return results
 
+
+
 def main():
     # Load environment variables
     persist_directory = os.environ.get('PERSIST_DIRECTORY')
@@ -75,6 +79,20 @@ def main():
     chunk_size = 500
     chunk_overlap = 50
     documents = load_documents(source_directory)
+    # Đường dẫn đến file PDF bạn muốn quét
+    # pdf_file = 'data1/Tiền tệ ngân hàng và thị trường tài chính.pdf'
+
+    # # Chuyển đổi file PDF thành danh sách các hình ảnh
+    # pages = convert_from_path(pdf_file, first_page=6, last_page=6)
+
+    # # Thiết lập ngôn ngữ cho Tesseract OCR (nếu cần)
+    # pytesseract.pytesseract.tesseract_cmd = '/opt/homebrew/bin/tesseract'  # Đường dẫn đến tesseract trên macOS
+
+    # # Duyệt qua từng trang hình ảnh và quét bằng pytesseract
+    # for i, page in enumerate(pages):
+    #     # Quét hình ảnh và in ra kết quả
+    #     documents += pytesseract.image_to_string(page)
+
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     texts = text_splitter.split_documents(documents)
     print(f"Loaded {len(documents)} documents from {source_directory}")

@@ -1,7 +1,10 @@
 from flask import render_template, redirect, url_for, request, flash, jsonify, Response
+from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import Chroma
-from langchain.llms import OpenAI
+from langchain.llms import OpenAI, LlamaCpp, GPT4All
+from langchain.chains import LLMChain, RetrievalQA
+from langchain.prompts import PromptTemplate
 from datetime import datetime, timedelta
 from chatbot.models import User, Topic, Conversation, Pdf, Feedback
 import os
@@ -15,7 +18,25 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 persist_directory = os.environ.get('PERSIST_DIRECTORY')
 embeddings_model_name = os.environ.get('EMBEDDINGS_MODEL_NAME')
 embeddings = HuggingFaceEmbeddings(model_name=embeddings_model_name)
-docsearch = Chroma(embedding_function=embeddings, persist_directory=persist_directory)
+chromadb = Chroma(embedding_function=embeddings, persist_directory=persist_directory)
+
+# model_type = os.environ.get('MODEL_TYPE')
+model_n_ctx = os.environ.get('MODEL_N_CTX')
+n_gpu_layers = os.environ.get('N_GPU_LAYERS')
+n_batch = os.environ.get('N_BATCH')
+callbacks = [StreamingStdOutCallbackHandler()]
+retriever = chromadb.as_retriever(search_kwargs={'k': 1})   
+template="""Use the following pieces of information to answer the user's question.
+    If you dont know the answer just say you know, don't try to make up an answer. Please use Vietnamese to answer the question
+
+    Context:{context}
+    Question:{question}
+
+    Only return the helpful answer below and nothing else
+    Helpful answer
+    """
+
+qa_prompt=PromptTemplate(template=template, input_variables=['context', 'question'])
 
 def gen_prompt(docs, query) -> str:
     return f"""To answer the question please only use the Context given, nothing else. If you dont know, say "I don't know"
@@ -63,8 +84,6 @@ def convert_name_to_abbreviation(name):
         abbreviation = words[0][0].upper()
 
     return abbreviation
-
-
 
 # ////////////////////
 
@@ -193,6 +212,9 @@ def add_conversation():
     if request.method == "POST":
         data = request.form
         if 'input_text' in data:
+            input_text = data['input_text']
+            model_type = data['model']
+            model_path = "chatbot/models/ggml-gpt4all-j-v1.3-groovy.bin"
             if 'topic_id' in data:
                 topic_id = data['topic_id']
                 user_chat = data['user_chat']
@@ -203,20 +225,39 @@ def add_conversation():
                 # text_to_speech(bot_chat["answer"])
                 return jsonify({'user_chat': user_chat, 'bot_chat': bot_chat["answer"]})
             else: 
-                input_text = data['input_text']
-                return Response(stream(input_text), mimetype='text/event-stream')
+                llm = GPT4All(model=model_path, n_ctx=model_n_ctx, backend='gptj', callbacks=callbacks, verbose=False)
+                if(model_type == "Llama2"):
+                    model_path = "chatbot/models/llama-2-7b-chat.Q4_K_M.gguf"
+                    llm = LlamaCpp(
+                        model_path=model_path,
+                        n_gpu_layers=n_gpu_layers,
+                        n_batch=n_batch,
+                        callbacks=callbacks,
+                        verbose=True,  # Verbose is required to pass to the callback manager
+                        n_ctx=model_n_ctx
+                    )
+                qa = RetrievalQA.from_chain_type(
+                    llm=llm, 
+                    chain_type="stuff", 
+                    retriever=retriever, 
+                    return_source_documents= True, 
+                    chain_type_kwargs={'prompt': qa_prompt}
+                )
+                res = qa(input_text)
+                # answer, docs = res['result'], res['source_documents']
+                return Response(res['result'], mimetype='text/event-stream')
     # if 'topic_id' in data:
     #     
 
 
-@app.route('/completion', methods=['GET', 'POST'])
-def completion_api():
-    if request.method == "POST":
-        data = request.form
-        input_text = data['input_text']
-        return Response(stream(input_text), mimetype='text/event-stream')
-    else:
-        return Response(None, mimetype='text/event-stream')
+# @app.route('/completion', methods=['GET', 'POST'])
+# def completion_api():
+#     if request.method == "POST":
+#         data = request.form
+#         input_text = data['input_text']
+#         return Response(stream(input_text), mimetype='text/event-stream')
+#     else:
+#         return Response(None, mimetype='text/event-stream')
 
 @app.route('/upload', methods=['POST'])
 def upload_file():

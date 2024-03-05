@@ -1,0 +1,1070 @@
+ 
+ NGUYỄN
+VĂN
+NGỌC
+TRƯỜNG ĐẠI HỌC KINH TẾ QUỐC DÂN
+TÊIN
+TỆ, NGÂN HÀNG VÀ THỊ TRƯỜNG TÀI CHÍNH
+NHÀ XUẤT BẢN ĐẠI HỌC KNIH TẾ QUỐC DÂN Hà
+nội - 2011
+
+ 
+ -ời
+giới thiệu
+Trang 5
+MỤC LỤC
+Phần 1 Tổng quan 7 Chương 1 Sự cần thiết phải nghiên cứu thị trường tài chính, tiền ệt và 7 ngân hàng
+-Thương 2 Hệ thống tài chính
+Chương 3 Hệ thống tiền tệ Phần I Thị trường tài chính
+49
+Chương
+4 Lãi suất
+65 Phụ lục Tính toán rủi ro của I ãi suất: độ dài 83
+91 19 131
+135 157
+Phần I Các định chế tài chính
+Chương 8 Phân tích kinh tế về cơ cấu tài chính
+183 Chương 9 Ngân hàng 219
+Chương 5 Sự thay đối của lãi suất
+Phụ lục / Mô hình định giá tài sản
+Phụ ụlc I/ Vận dụng phương pháp ếitp cận thị trường
+tài sản đối với
+thị trường vàng
+Chương 6 Cơ cấu rủi ro và thời hạn của lãi suất
+Chương 7 Thị trường chứng khoán, ýl thuyết kỳ vọng hợp ýl và giả thuyết thị trường hiệu quả
+Chương 10 Cơ cầu của ngành ngân hàng
+Chương 1 Phân tích kinh tế về điều hành ngân hàng
+Chương 12 Tài chính phi ngân hàng
+Chương 13 Các công cụ tài chính phái sinh
+Phần VI Ngân hàng trung ương và chính sách tiền tệ
+249 283
+313 333
+Chương 14 Cơ cấu của ngân hàng trung ương và hệ thống tiền tệ và 357 ngân
+hàng
+Chương 15 Quá trình tạo tiền gửi và cung tiền
+381 Phụ lục Bảng tổng kết tài sản của Fed và cơ sở tiền ệt 395
+Chương 16 Các yếu tố quyết định cung tiền
+401
+
+ Phần VI. Lý thuyết tiền tệ
+Phụ lục Biếu hiện mở rộng tỷ lệ tiền mặt
+416 Chương 17 Các công cụ của chính sách tiền tệ
+421 Chương 18 Thực thi chính sách tiền tệ: mục tiêu và chiến lược
+437 Phần V Tài chính quốc tế và chính sách tiền tệ
+Chương 19.
+Thị trưởng hồi đoái 459 Chương 20
+Hệ thống tài chính quốc tế
+481 Chương 21
+Kinh nghiệm quốc tế về thực thi chính sách tiền tệ: 505
+Phần VI Lý thuyết tiền tệ
+Chương 22
+Chương 23
+Chương 24
+533 551
+575 595
+613 641 667
+Nhu cầu về tiền
+Mô hình Keynes và mô hình /S-LM
+Chính sách tài chính và tiền tệ trong mô hình /S-LM Phân tích tổng cầu và tổng cung
+Chương 25
+Chương 26 Bằng chứng ềv cơ chế átc động của chính sách tiền tệ
+Chương 27 Tiền tệ và lạm phát
+Chương 28 Kỳ vọng hợp ýl và những hàm ý đối với chính sách
+
+ LỜI GIỚI THIỆU
+Trong các bản tin trên it vi hoặc báo chí, bạn thường thấy ngân hàng trung ương các nước hoặc khối nước (Ngân hàng Nhà nước Việt Nam, Quỹ Dự trữ Liên bang Mỹ, Ngân hàng Trung ương châu Au, v.v..) đang cân nhắc khả năng tăng lãi suât. Chính sách này gây ra ảnh hưởng như thế nào tới lãi suất của khoản tiền mà bạn đã vay để mua nhà, mua ô tô hoặc những hàng hóa đắt tiền khác? Điều này có nghĩa là bạn sẽ dễ hay khó mua hàng trả góp hơn trong tương lai? Nó sẽ làm cho bạn dễ hay khó tìm việc làm hơn trong năm tới?
+Nhìn bề ngoài, những câu hỏi trên không có vẻ gì là hóc búa. Song nếu muốn trả lời chúng và những câu hỏi tương tự có liên quan đến hoạt động tài chính, bạn cần hiểu rõ phương thức vận hành của thị trường tài chính (như thị trường trái phiếu, thị trường cổ phiếu và thị trường hồi đoái) và các trung gian tài chính (như ngân hàng, công yt bảo hiểm, quỹ hỗ tương và các định chế khác), cũng như nắm vững vai trò của tiền trong nền kinh tế. Các thị trường và trung gian tài
+chinh không những ánh hướng tới cuộc sông thường nhật của bạn, mà còn găn với những luông vôn không lô (hàng nghìn tỷ đông, đô la, euro) lan tỏa khắp nơi
+trong nền kinh tế. Các luồng vốn này đến lượt chúng lại tác động mạnh mẽ tới doanh thu
+và lợi nhuận của
+từng doanh nghiệp, cũng
+như thu
+nhập và
+chi tiêu của môi gia đình. Thậm chí, chúng còn tác động tới cả phúc lợi kinh tê của các nước khác. Do vậy, diễn biển của thị trường tài chính, hoạt động của các trung gian tài chính và tiên tệ thường là môi quan tâm lớn của các chính khách vì
+chúng tác động mạnh tới tình hình chính trị, đặc biệt các cuộc bầu cử.
+Cuốn Tiền tệ, Ngân hàng và Thị trưởng tài chính mà chúng tôi trân trọng giới thiệu sau đây có mục đích giúp bạn nghiên cứu một cách sâu rộng về lĩnh vực đầy
+khó khăn và thách thức này. Nó được biên soạn dựa trên cuốn The Economics of Money, Banking and Financial Markets của Frederic S. Mishkin - giáo sư trường Đại học Tổng hợp Côlômbia, Mỹ. Chúng tôi đã đề ra chiến lược biên soạn tốt nhất và hết sức cố gắng để có thể trao cho bạn cuốn sách có chất lượng cao nhất, hữu ích nhất.
+Tuy nhiên, do năng lực có hạn, chắc chắn chúng tôi không tránh khỏi những thiếu sót, nhất là trong lần xuất bản đầu tiên này. Rất mong bạn đọc góp ý cho chúng tôi để sửa chữa cho cuốn sách được hoàn thiện hơn trong các lần xuất bảnsau.MọiýkiếnxingửivềNhàxuấtbảnĐạihọc Kinhết Quốc dân,207 đường Giải Phóng, quận Hai Bà Trưng, Hà Nội; điện thoại: 04 36282483.
+Xin chân thành cám ơn!
+Nhà xuất bản
+Đại học Kinh ết Quốc dân
+
+ 
+ Chương 1ựS cần thiết phải nghiên cúu
+thị rtường tải chính, tiền ệt và ngân hàng PHẦN I: TỐNG QUAN
+Chương 1
+ỰS
+CẦN THẾIT PHẢI NGHIÊN CỨU
+THỊ TRƯỜNG TÀI CHÍNH, TỀIN ỆT ÀV NGÂN HÀNG
+.1TẠI SAO PHẢI NGHÊIN CỨU THỊ TRƯỜNG TÀI CHÍNH?
+Thị trường tài chính là loại thị trường mà trong đó vốn được chuyển từ tay những người đang có quá nhiều vốn (bằng tiền) sang cho những người đang có quá
+ít vôn. Thị trường tài chính, trước hết là thị trường trái phiếu và thị trường cổ phiếu, đóng vai trò sông còn trong quá trình cái thiện hiệu quả. Chúng tạo ra các kênh đề dẫn vôn từ những người không có cơ hội sử dụng vào mục đích sán
+xuât sang cho những người có cơ hội đó. Dĩ nhiên, sự vận hành trôi cháy của thị trường tài chính là yêu tô then chôt trong việc tạo ra tôc độ tăng trưởng kinh tế cao. Thị trường tài chính vận hành yếu kém thường là nguyên nhân làm cho nhiều nước trên thế giới tiếp tục phải sống trong cảnh bân hàn. Các hoạt động trên thị trường tài chính còn tác động trực tiếp tới của cải cá nhân, hành vi của doanh nghiệp và người tiêu dùng, cũng như kết quả hoạt động mang tính chu kỳ của nền kinh tế.
+Chứng khoán (còn gọi là công cụ tài chính) là trái quyền (quyền được hưởng) về thu nhập tương lai hoặc tài sản của người phát hành. Hãy chú ýrằng tất cả các trái quyền tài chính hay tài sản đều là đối tượng sở hữu. Trái phiếu là khái niệm
+được dùng để chỉ các chứng chỉ nợ hứa hẹn đem lại những khoản thanh toán định kỳ trong một khoảng thời gian nhất định. Thị trường trái phiếu có ý nghĩa đặc biệt quan trọng đối với hoạt động kinh tê, vì nó cho phép các công ty hoặc chính phủ vay nợ để tài trợ cho hoạt động của họ và vì đây chính là nơi lãi suất được xác định. Lãi suất là chi phí của sự vay nợ hay cái giá phải trả cho việc thuê vốn (thường được biểu thị bằng phần trăm của giá thuê 100 đồng hay đô la mỗi năm). Có nhiều loại lãi suất trong nên kinh tê như lãi suât cảm cô, lãi suất cho vay để mua ô tô và lãi suất của nhiều loại trái phiêu khác.
+Lãi suất có ý nghĩa quan trọng ở nhiều cấp độ. Ở cấp độ cá nhân, lãi suất cao có thể làm cho bạn không vội mua nhà hoặc ô tô, vì chi phí của việc tài trợ cho nc cao. Ngược lại, lãi suất cao có thể thúc đẩy bạn tiết kiệm nhiều hơn, bởi vị bạn có thể kiếm thêm thu nhập từ tiền lãi khi giữ lại một phần thu nhập của mình (các nhà
+kinh tế gọi là tiết kiệm) và cho vay, chứ không chi cho tiêu dùng. Ở cấp độ tổng hợp hơn, lãi suất tác động tới sự lành mạnh của nền kinh tế. Không những nó ảnh hưởng tới sự sẵn sàng chi tiêu hay tiết kiệm của người tiêu dùng, mà còr tác động tới quyết định đầu tư của doanh nghiệp. Ví dụ, lãi suất cao có thể àlm cho một công ty hoãn xây dựng nhà máy mới cho phép tạo ra nhiều việc làm.
+Do những thay đổi của lãi suất ảnh hưởng mạnh mẽ tới cá nhân, định chế tà chính, doanh nghiệp và nền kinh tế nói chung, nên chúng cũng
+có ýnghĩa quar
+
+ Phần .I Tống quan
+trọng đối với vấn đề ýl giải những biến động khá mạnh của bản thân lãi suất trong suốt hai mươi năm qua. Ví dụ, lãi suất của tín phiếu Kho bạc
+ba tháng ở Mỹ đạt tới mức đỉnh là 16% vào năm 1991. Lãi suất này sau đó đã giảm xuống 3% vào cuối năm 1992 và 1993, tăng lên trên 5% vào giữa và cuối những năm 1990, nhưng sau đó chỉ còn chưa tới 2% vào đầu năm 2000.
+Do lãi suất khác nhau có xu thế biến động cùng nhau, nên các nhà kinh
+tê thường coi chúng là một và gọi chung là "lãi suất". Song như hình 1cho thấy,
+lãi suât thu được từ các loại trái phiêu có thê khác nhau rât nhiêu. Vi dụ lãi suât tín
+phiếu Kho bạc ba tháng ở Mỹ biến động mạnh hơn các lãi suất khác và nếu tính bình quân, nó có xu hướng thấp hơn. Lãi suất trái phiếu công yt Baa (chất lượng hạng trung) nhìn chung cao hơn các lãi suất khác và mức chênh lệch giữa nó và các lãi suất khác
+đã trở nên lớn
+hơn vào những năm 1970.
+Lãi suất
+(%)
+†
+20
+15
+10
+2
+1950 1955 1960 1965 1970 1975 1980 1985 1990
+1995 2000 2005
+Hình .1 Lãi suất của một ốs loại trái phiếu. (1) Trái phiếu công yt Ba, (2) Trái phiếu dài hạn của Mỹ. (3) Lãi suất tin phiếu Kho bạc ba tháng.
+Trong
+chương 2, chúng ta sẽ nghiên cứu vai trò của thị trường trái phiếu trong nền kinh tế, còn trong các chương từ 4đến 6, chúng ta sẽ xem xét các vấn đề mang tính lý thuyết hơn như lãi suất là gì, những yếu tố nào gây ra xu thế biến động chung của lãi suất và tại sao lãi suất của trái phiếu lại biến động.
+Cổ phiếu phổ thông (thường được gọi tắt là cổ phiếu, cổ phần)
+biểu thị phần sở hữu của người nắm giữ nó trong công ty cổ phần. Nó là chứng chỉ sở hữu thừa nhận trái quyền về thu nhập và tài sản của công ty phát hành. Việc phát hành
+cổ phiếu
+và bán cho công chúng là cách để công ty gọi vốn nhằm tài trợ cho hoat động của mình. Thị trường cổ phiếu, trong đó người ta mua bán các trái quyền về thu nhập của công ty (tức cổ phiếu), là thị trường tài chính được nhiều người ở 8
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Chương 7 Thị trường chúng khoán, lý thuyết kỳ vọng hợp lý và giả thuyết thị trường hiệu quả cố phiếu như thế nào?
+Mô hình tăng trưởng Gordon trong phương trình 5 nói cho chúng ta điều đó Chính sách tiền tệ có thể tác động tới giá cổ phiếu theo hai cách. Thứ nhất, khi ngân hàng trung ương cắt giảm lãi suất, lợi tức thu được từ trái phiếu (một tài sản khác với cổ phiếu) giảm và các nhà đầu tư có khả năng chấp
+nhận yêu cầu
+phiếu. Ngoài ra, sự cắt giảm lãi suất có khả năng kích thích nền kinh tế, cho nên tốc độ tăng trưởng của cổ tức (g) có thể cao hơn đôi chút. Sự gia tăng của g cũng là nguyện nhân làm cho mẫu số trong phương trình 5 giảm, dẫn tới Po cao hơn và giá cổ phiếu tăng.
+Như chúng t a sẽ thấy trong chương 26, tác động của chính sách tiền tệ đối với giá cổ phiếu là một trong các phương cách then chốt để chính sách tiền tệ tác động tới nền kinh tế.
+Vận dụng: vụ tấn công khủng bố 11/9, vụ bê bối Enron và thị trường chứng khoán
+Vào năm 2001, hai cú sốc lớn đã làm rung chuyển thị trường cổ phiếu. Đó là vụ ầnt nc khùng ểđ nhạ g1i hg gc pềi u c hông at o nể hểi dng
+mchnìh ătng này tác động tới giá cổ phiếu như thế nào.
+Vụ tấn công khủng bố 11/9 làm tăng khả năng lan tràn chủ nghĩa khủng bố chống lại nước Mỹ. Làn sóng sợ hãi này dẫn tới sự sửa đổi theo hướng cắt giảm cainócựct 9() rotng omhnih Gải àvys agị cảng phảt nsip ết ô rặng mường của phương trình 5gây ra sự sụt giảm của Po, qua đó làm giảm giá cổ phiếu. Tính bất định ngày càng tăng của nền kinh tế Mỹ cũng làm tăng yêu cầu về mức lợi tức thu được từ các khoản đầu tư vào vốn sở hữu. Mức ke cao hơn cũng dẫn tới sự gia tăng trong mẫu số của phương trình 5, sự sụt giảm của Po và tình trạng sụt giảm tràn lan trong giá cổ phiếu. Đúng như mô hình Gordon dự báo,
+thị trường chứng khoán sụt giảm tới 10% ngay sau vụ 9/11.
+Sau đó, do thành công của Mỹ trong cuộc chiến chống Taliban ở Afghanixtan và cuộc tấn công khủng bố tiếp theo không xảy ra, sự sợ hãi và tinh bất định của thị trường đã giảm, làm g phục hồi và ke giảm. Khi đó mẫu số trong phương trình 5 giảm, Po phục hồi và thị trường chứng khoán trở lại bình thường vào tháng 10 và tháng 1. Tuy nhiên vào đầu năm 2002, vụ bê bối Enron và các tin đồn về việc nhiều công yt thỗi phồng thu nhập của mình làm cho đông đảo nhà đầu tư nghi ngờ dự báo tốt đẹp trước đây về sự gia tăng thu nhập và cổ tức của họ. Việc điều chỉnh theo hướng giảm g và tăng ke do tính bất định ngày càng tăng về chất lượng của thông tin kế toán đã làm tăng mẫu số trong phương trình Gordon 5, qua đó làm giảm Po của nhiều công ty và thị trường cổ phiếu lại chuyễn sang thời kỳ ảm đạm. Điều
+này đã xảy ra đúng như phần
+tích của chúng ta đã dự báo. Sự phục hồi của thị trường cố phiếu bị gián
+163
+
+ Phần II. Thị trường tài chính
+đoạn và thị trường
+bắt đầu trượt dốc.
+I. ÝL THUYẾT ỲK
+VỌNG HỢP ÝL
+Phân tích về quá trình định giá cổ phiếu mà chúng ta đã trình bày tóm tắt trong mục trước phụ thuộc vào kỳ vọng của mọi người - đặc biệt àl kỳ vọng về dòng tiền mặt. Dĩ nhiên, hầu như không có khu vực nào trong nền kinh tế mà kỳ vọng không đóng vai trò quan trọng. Thực tế này ýl giải tại sao chúng ta cần xem xét phương thức hình thành kỳ vọng. Chúng ta làm điều này bằng cách trình bày tóm tắt ýl thuyết kỳ vọng hợp ýl. Hiện nay, đây àl ýl thuyết được sử dụng rộng rãi nhất để mô tả quá trình hình thành kỳ vọng của doanh nghiệp và người tiêu dùng.
+Trong những năm 1950 và 1960, các nhà kinh tế thường cho rằng kỳ vọng được hình thành chỉ dựa vào kinh nghiệm thu được trong quá khứ. Chẳng hạn, kỳ vọng về lạm phát nhìn chung được coi là số bình quân của các tỷ lệ lạm phát đã xảy ra trong quá khứ (các năm, quý, tháng trước). Quan điểm này về sự hình thành kỳ vọng được gọi là kỳ vọng thích nghi. Nó cho thấy những thay đổi trong kỳ vọng diễn ra chậm chạp theo thời gian, khi số liệu quá khứ thay đổi. Vi vậy, nếu lạm phát trước đây ổn định ở mức 5%, thì kỳ vọng về lạm phát tương lai cũng sẽ bằng 5%. Nếu lạm phát tăng lên mức 10%, thì kỳ vọng về lạm phát tương lai cùng se tăng lên 10%. Tuy nhiên, quá trình này diễn ra chậm chạp: trong năm thứ nhất, lạm phát dự kiến
+có thể chỉ tăng lên
+6%, trong năm thứ
+hai tăng lên 7% và vân vân. Kỳ vọng thích nghi đã bị chỉ trích là dựa trên quan điểm sai lầm cho rằng mọi người chỉ sử dụng thông tin về quá khứ
+của một biến số để hình thành kỳ vọng về biến số đó.
+Kỳ vọng của mọi người về lạm phát hầu như chắc chắn bị ảnh hưởng bởi dự báo của họ về chính sách tiền tệ tương lai, cũng như bởi chính sách tiền tệ hiện tại và chính sách tiền tệ trong quá khứ. Ngoài ra, mọi người thường nhanh chóng thay đổi kỳ vọng của mình khi nhận được thông tin mới. Đề đáp lại những phản bác này đổi với kỳ vọng thích nghi, John Muth đã phát triển một lý thuyết khác về kỳ vọng, gọi là kỳ vọng hợp lý. Chúng ta có thể trình bày ngắn gọn lý thuyết này như sau: kỳ vọng đồng nhất với dự báo tối ưu (tức tiên đoán tốt nhất về tương lai) khi sử dụng tất cả các thông
+tin hiện có.
+Điều này thực ra có hàm ý gì? Đề lý giải nó một cách rõ ràng hơn, chúng ta hãy sử dụng lý thuyết kỳ vọng hợp lý để tìm hiểu xem kỳ vọng hình thành như thể nào trong tình huống mà hầu hết chúng ta đều gặp ở một thời điểm nào đó trong cuộc đời của mình: đó là tình huống lái xe đi làm. Giả sử khi Joe lái xe đi làm
+vào giờ bình thường, thì tính bình quân anh ta mất 30 phút. Đôi khi anh ta mất
+35 phút, nhưng đôi khi chỉ mất 25 phút và vì vậy tính bình quân trong giờ màl uváưđcộoacêim,htiexb
+ni quảnànhl al
+phải mtặhtêm, nội nut Nuh nha ta đi làm trong giờ cao điểm, thì tiên đoán tốt nhất về thời gian lái xe - tức dự báo tối ưu của anh ta -là 40 phút.
+Nếu
+thông tin duy nhất mà Joe có được trước khi làm là thời gian lái xe của 164
+
+ Chương 7 Thị trường chứng khoán, lý thuyết kỳ vọng hợp lý và giá thuyết thị trường hiệu quả
+anh ta bị ảnh hưởng nếu ra khỏi nhà vào giờ cao điểm, thì ýl thuyết kỳ vọng hợp ýl cho phép bạn dự báo kỳ vọng của Joe về thời gian lái xe của anh ta như thế nào? Từ tiên đoán tốt nhất về thời gian lái xe của anh ta khi sử dụng tất cả các thông tịn hiện có là 40 phút, kỳ vọng của Joe cũng
+sẽ là 40 phút. Rõ ràng kỳ vọng bằng 35 phút là không hợp ýl, bởi vi nó không bằng dự báo tối ưu, tức tiên đoán tốt nhất về thời gian lái xe.
+Giả sử các điều kiện và kỳ vọng vẫn như cũ, ngày hôm sau Joe phải lái xe 45 phút do anh ta gặp quá nhiều đèn đỏ và và ngày hôm sau nữa
+anh ta gặp toàn đèn xanh và chỉ mất 35 phút. Những biến thiên này có làm cho kỳ vọng 40 phút của Joe trở nên bất hợp lý không? Không, kỳ vọng về thời gian lái xe 40 phút vẫn là kỳ vọng hợp ýl. Trong cả hai tình huống, dự báo đều sai số 5 phút, cho nên kỳ vọng không hoàn toàn chính xác. Tuy nhiên, dự báo không cân phải chính xác hoàn toàn mới được coi là hợp ýl - nó chỉ cần tốt đến mức cho phép trong điều kiện thông tin hiện có. Nghĩa là, nó đúng khi tính bình quân và kỳ vọng 40 phút đáp ứng yêu cầu này. Do có một vài tính ngẫu nhiên trong thời gian lái xe của Joe cho dù điều kiện lái xe như thế nào, nên dự báo tối ưu không bao giờ hoàn toàn chính xác.
+Vi dụ mà chúng ta vừa bàn tới đem lại luận điểm quan trọng sau đây về kỳ vọnghợpýl: mặcdùkỳvọnghợpýl bằngdựbáotốiưukhisửdụngtấtcảcác thông tin hiện có, song dự báo dựa trên các thông tin đó không phải lúc nào cũng hoàn toàn chính xác.
+Nhưng nếu một thông tin cần thiết cho việc dự báo thời gian lái xe không tiếp cận được hoặc bị bỏ qua thì sao? Giả sử trên tuyến mà Joe thường đi đến nơi làm việc có một tai nạn giao thông làm cho đường bị tắc nghẽn trong hai tiếng đồng hồ. Nếu Joe không có cách nào xác nhận thông tin này, thì kỳ vọng về thời gian lái xe 40 phút àl vẫn còn hợp lý, bởi vị thông tin về vụ tai nạn không đến được với anh ta và vì vậy anh ta không thê đưa vào dự báo tôi ưu của mình. Song nếu có bản tin ra đi ô hoặc ti vi về tai nạn và Joe không thèm nghe hoặc nghe được nhưng bỏ ngoài tai, thì kỳ vọng 40 phút của anh ta không còn hợp lý nữa. Dưới ánh sáng của thông tin hiện có này, dự dự báo tối ưu của Joe phải là hai giờ và 40 phút.
+Như vậy, có hai nguyên nhân làm cho một kỳ vọng trở nên không hợp ýl:
+.1 Mọi người nhận được tất cả các thông tin hiện có, nhưng cho rằng việc làm cho ký vọng của mình trở thành tiên đoán tốt nhất
+đỏi hỏi quá nhiều nỗ lực. .2
+Mọi người không nhận được các thông tin thích hợp, cho nên tiên đoán tốt nhất của họ về tương lai trở nên không chính xác.
+Xét cho cùng thì vấn đề then chốt àl phải nhận thức được rằng nếu có thêm một yếu ốt quan trọng, nhưng không có thông tin về nó, thì kỳ vọng không tính đến nó có thể vẫn được coi là kỳ vọng hợp lý.
+Trình bày lý thuyết bằng toán học
+Chúng ta có thể trình bày ýl thuyết kỳ vọng hợp lý dưới hình thức toán học hơn một chút. Nếu Xlà ký hiệu để chỉ biến số được dự báo (trong ví dụ của chúng ta
+165
+
+ Phần II. Thị trường tài chính
+thời gian lái xe của Joe), X° là ký hiệu kỳ vọng về biến số đó (kỳ vọng của Joe về thời gian lái xe của anh ta), thì ýl thuyết kỳ vọng hợp ýl chỉ nói rằng:
+x° =x°
+(6)
+Nghĩa là, kỳ vọng về Xbằng dự báo tối ưu (X"') khi sử dụng tất cả các thông tin hiện có.
+Mặt hợp lý đằng sau lý thuyết
+Tại sao mọi người tìm cách làm cho kỳ vọng của mình phù hợp với tiên đoán tốt nhất về tương lai khi sử dụng tất cả các thông tin hiện có? Cách ýl giải đơn giản nhất là mọi người bị thiệt hại khi không làm như vậy. Joe có động cơ mạnh mẽ để làm cho kỳ vọng về thời gian mà anh ta bị mất khi lái xe đi làm chính xác đến mức cao nhất. Nếu dự báo quá thấp thời gian lái xe của mình, anh ta sẽ thường xuyên đến muộn và có nguy cơ bị đuổi việc. Nếu dự báo quá cao, thì tính bình quân anh ta đến nơi làm việc quá sớm và phải từ bỏ một phần thời gian ngủ hoặc thời gian nghỉ ngơi một cách không cần thiết. Kỳ vọng chính xác là đáng mong muốn và mọi người có động cơ mạnh mẽ để tim cách làm cho nó bằng dự báo tối ưu khi sử dụng tất cả các thông tin hiện có.
+Nguyên tắc này cũng đúng đối với các doanh nghiệp. Giả sử một nhà sản xuất đồ dùng gia đình - chẳng hạn General Electric (GE) - biết rằng
+các biến động của lãi suất có ý nghĩa quan trọng đối với mức tiêu thụ đồ dùng gia đình. Nếu GE đưa ra dự báo sai lệch về lãi suất, nó sẽ kiểm được ít lợi nhuận hơn, bởi vì nó có thể sản xuất quá nhiều hoặc quá ít đồ dùng gia đình. Vì vậy, GE có động cơ mạnh mẽ để thu thập tất cả các thông tin hiện có phục vụ cho dự báo về lãi suất và sử dụng thông tin này để đưa ra các tiên đoán tốt đến mức cho phép về các biến động trong tương lai của lãi suất.
+Động cơ làm cho kỳ vọng bằng dự báo tối ưu đặc biệt mạnh mẽ trên các thị trường tài chính. Trong các thị trường này, người có dự báo tốt hơn về tương lai sẽ trở nên giàu có. Bởi vậy, việc vận dụng lý thuyết kỳ vọng hợp ýl
+vào thị trường tài chính (ở đây nó được gọi là giả thuyết thị trường hiệu quả hay ýl thuyết về thị trường vốn hiệu quả) đặc biệt hữu ích.
+Các hàm ý của lý thuyết
+Lý thuyết kỳ vọng hợp ýl dẫn tới hai hàm ý dễ hiểu về quá trình hình thành kỳ vọng và chúng có ý nghĩa quan trọng trong phân tích nền kinh ết tổng hợp:
+.1 Nếu có sự thay đổi trong cách thức biển động của một biên sô, thì cách thức hình thành kỳ vọng về biền số này cũng sẽ thay đồi. Chúng ta dễ dàng hiếu được
+giáo ýl này của ýl thuyết kỳ vọng hợp ýl thông qua một ví dụ cụ thể. Giả sử lãi suất biến động theo hướng trở về mức "bình thường" trong tương lai. Nếu lãi suất hiện tại caoso với "mức bình thường", thì dự báo tối ưu về lãi suất trong tương lai phải là nó sẽ giảm xuống mức bình thường. Như vậy, ýl thuyết
+kỳ vọng hợp ýl cho rằng khi lãi suất hiện tại cao, kỳ vọng về nó sẽ giảm trong tương lai.
+Giả sử hiện tại cách thức biến động của lãi suất thay đổi theo hướng nếu lãi suất cao, nó sẽ tiếp tục ở mức cao. Trong tình huống này, khi lãi suất hiện tại
+166
+
+ Chương 7Thị trường chứng khoán, lý thuyết kỳ vọng hợp lý và giả thuyết thị trường hiệu quả
+cao,dựbáotốiưuvềlãisuấttươnglaivàkỳvọnghợpýl sẽlànótiếp ụtc ởmức cao. Kỳ vọng về lãi suất tương lai không còn cho thấy rằng lãi suất sẽ giảm. Bởi vậy, sự thay đổi trong cách thức biến động của biến số lãi suất dẫn tới sự thay đổi trong cách thức hình thành kỳ vọng về lãi suất tượng
+lai. Phương pháp phân tích kỳ vọng hợp lý mà chúng ta sử dụng ở đây có thể khái quát hoa cho kỳ vọng về bất kỳ biến số nào. Cho nên, khi có sự thay đổi trọng cách thức biến động của bất kỳ biến số nào, cách thức hình thành kỳ vọng về
+biến số đó cũng sẽ thay đối.
+2. Nếu tính bình quân, sai số dự báo của các kỳ vọng sẽ bằng 0 và không thế dự báo được. Sai số dự báo của một kỳ vọng bằng X- X°,
+", tực mức chênh lệch giưa kết quả thực hiện biên số Xvà kỳ vọng về nó. Nói cụ thê,
+nêu vào một ngày nào đó thời gian lái xe đi làm của Joe bằng 45 phút và kỳ vọng của anh ta về thời gian lái xe đi làm bằng 40 phút, thì sai số dự báo bằng 5 phút.
+Chúng ta hãy giả định có sự vi phạm giáo ýl của ýl thuyết kỳ vọng hợp ýl và sai số dự báo của Joe tính bình quân không phải bằng 0, mà bằng 5 phút.
+Sai số dự báo bây giờ có thê dự báo được, vì Joe nhanh chóng nhận ra rằng tính bình quân anh ta đi muộn 5 phút và có thê cải thiện dự báo băng cách tăng nó thêm 5
+phút. Lý thuyết kỳ vọng hợp lý hàm ý răng đây chính là điêu mà Joe sẽ làm, bới vì anh ta muốn dự báo của minh là tiên đoán tốt nhất. Khi Joe sửa đổi dự báo của mình bằng cách tăng thêm 5 phút, thì tính bình quân, sai số dự báo sẽ bằng Ovà vi vậy người ta không thể dự báo được là nó bằng bao nhiêu. Lý thuyết kỳ vọng hợp ýl nói rằng rằng sai số dự báo của kỳ vọng là không thể dự báo được.
+IV. GẢI THUYẾT THỊ TRƯỜNG HỆIU QUẢ: ỲK VỌNG HỢP ÝL TRÊN THỊ TRƯỜNG TÀI CHÍNH
+Trong khi các nhà kinh tế tiền tệ phát triển ýl thuyết kỳ vọng hợp lý, thì các nhà kinh ết tài chính cũng đồng thời phát triển ýl thuyết về sự hình thành kỳ vọng trên thị trường tài chính. Lý thuyết này đưa họ đến những kết
+luận giống như kết luận của các nhà ýl thuyết kỳ vọng hợp ýl: kỳ vọng trên thị trường tài chính bằng dự báo tối ưu khi sử dụng tất cả các thông tin hiện có. Mặc dù các nhà kinh tế tài chính đặt cho ýl thuyết của mình cái tên khác là giả thuyết thị trường hiệu quả, nhưng trên thực tế,ýl thuyết này chẳng qua chỉ là sự vận dụng ýl thuyết kỳ vọng hợp ýl vào quá trình định giá chứng khoán.
+Giả thuyết thị trường hiệu quả dựa trên giả định cho rằng giá của các chứng khoán
+trên thị trường tài chính phản ánh toàn bộ thông tin hiện có. Bạn có thể nhớ lại từ chương 4rằng ỷt suất lợi tức thu được từ việc nắm giữ chứng khoán bằng
+tổng số lãi về vốn thu được từ chứng khoán (sự thay đổi trong giá cả), cộng với các khoản thanh toán tiền mặt và chia cho giá mua ban đầu chứng khoán:
+Pi -P, +C P,
+trong đó ràl ỷt ệl lợi tức thu được từ việc nắm giữ chứng khoán trong khoảng thờigiantừttới+t1(vịdụừt cuốinăm2000tớicuốinăm2001),P+, ,làgiá chứng khoán tại thời điểm t+1, tức cuối thời kỳ nắm giữ, P, àl giá chứng khoán
+r=
+(7)
+167
+
+ Phần II. Thị trường tài chính
+tại thời điểm t, tức đầu thời kỳ nắm giữ, và Cmức thanh toán tiền mặt (lãi suất cupôn hoặc cổ tức) thu được trong thời kỳ từ t tới t+1.
+Chúng ta hãy xem xét kỳ vọng về lợi tức tại thời điểm t, tức
+đầu thời kỳ nắm giữ. Do giá hiện hành P, và mức thanh toán tiền mặt C là các đại lượng đã biết vào đầu thời kỳ, nên biến số duy nhất không biết chắc trong định nghĩa về lợi tức là giá trong thời kỳ tiếp theo P,+ .1 Nếu ký
+hiệu kỳ vọng về giá của chứng khoán vào cuối thời kỳ nắm giữ là P°, lợi tức dự kiến là f, chúng ta có
+Pai -P, +C P,
+Giả thuyết thị trường hiệu quả cũng cho rằng kỳ vọng về giá cả tương lai bằng dự báo tối ưu khi sử dụng tất cả thông tin hiện có. Nói cách khác, do kỳ vọng của thị trường về giá tương lai của các chứng khoán àl hợp ýl, nên:
+Điều này đến lượt nó lại hàm ý rằng lợi tức dự kiến thu được từ
+chứng khoán sẽ bằng dự báo tối ưu của lợi tức:
+=p p°
+(8)
+Thật không may, do chúng ta không quan sát được r° hoặc P*, cho nên các phương trình kỳ vọng hợp lý bản thân chúng không nói cho chúng ta biết nhiều
+về phương thức vận hành của thị trường tài
+chính. Tuy nhiên, nếu chúng ta đưa
+ra được một cách nào đó để tính toán giá trị của 1°, thì các phương trình này sẽ có những hàm ý quan trọng đối với phương thức thay
+đối của giá chứng khoán trên thị trường tài chính.
+Phân tích cung và cầu về thị trường trái phiếu đã phát triển trong chương 5 h c o c u ố n g r t á i y h p ủ đ ư ợ c mệ x x ẽ ) ố s ó c ủ x h ư ớ n g
+chuyển bới ọri ựcl cuấn, báng. tức lợi tức làm cho lượng cầu bằng lượng cung. Phân tích cung cầu cho phép chúng ta xác định lợi tức dự kiến thu được từ chứng khoán với điều kiện cân bằng sau đây: lợi tức dự kiến thu được từ chứng khoán ° bằng lợi tức cân bằng r*, cái làm cho lượng cầu về chứng khoán bằng lượng cung. Nghĩa là:
+(9)
+Bộ môn tài chính nghiên cứu các yếu tố (ví dụ rủi ro và tính thanh khoản) ảnh hưởng tới mức lợi tức cân bằng thu được từ chứng khoán. Đối với mục đích của mình, chúng ta chỉ cần biết rằng có thể xác định lợi tức cân bằng và nhờ vậy xác định được lợi tức dự kiến trong điều kiện cân
+bằng.
+Chúng ta có thể rút ra một phương trình để mô tả biểu hiện của giá cả trên thị
+trường hiệu quả bằng cách sử dụng điều kiện cân bằng để thay ° bằng *r trong phương trình kỳ vọng hợp ýl (phương trình 8). Theo
+cách này, chúng ta có: p'=*
+(10)
+Phương trình này nói cho chúng ta biết rằng giá hiện
+hành trên thị trường tài chính được quy định sao cho dự báo tối ưu về lợi tức của chứng khoán khi sử
+168
+
+ Chương 7 Thị trường chứng khoán, lý thuyết kỳ vọng hợp lý và giả thuyết thị trường hiệu quả
+dụng tất cả các thông tin hiện có bằng lợi tức cân bằng của chứng khoán. Các nhà kinh tế tài chính phát biếu điều này dưới dạng đơn giản hơn: trên thị trường hiệu quả, giá của chứng khoán phản ánh
+tất cả các thông tin hiện có.
+Mặt hợp lý đẳng sau giả thuyết
+Bây giờ chúng ta hãy xem điều kiện thị trường hiệu quả có ý nghĩa gì trong thực tế và tại sao nó là cách trình bày dễ hiểu về đặc trưng của hành vi định giá. Giả sử lợi tức cân bằng thu được từ chứng khoán - ví dụ cổ phiếu phổ thông của
+công yt Exxon - bằng
+10% hàng năm và giá hiện hành
+P, của nó thấp hơn mức
+dự báo tối ưu về giá tương lai Pil
+cho nên dự báo tối ưu của lợi tức
+hàng năm
+bằng 50%, lớn hơn mức lợi tức cân bằng 10%. Bây giờ chúng ta có thể dự báo rằng tính bình quân, lợi tức của cổ phiếu Exxon sẽ cao bất thường. Tình huống này được gọi là cơ hội kiếm lợi nhuận chưa được khai thác, bởi vì tính bình quân, mọi người sẽ kiếm được nhiều lợi tức hơn so với bình thường nhờ các
+nhiều hơn và điều này đến lượt nó lại đây giá hiện hành P, của nó lên cao hơn
+so với mức giá dự kiên tương lai P,1 và qua đó làm giảm r. Khi giá hiện hành đã tăng đến mức đủ để làm cho P' bằng *r và điều kiện thị trường hiệu quả (phương trình 10) được thoa mãn, thì hoạt động mua cổ phiếu Exxon sẽ dừng lại và cơ hội kiếm lợi nhuận chưa được khai thác sẽ biến
+mất.
+Dạng mạnh của giả thuyết thị trường hiệu quả
+Tương tự, các chứng khoán mà dự báo tối ưu của lợi tức bằng -5% và lợi tức
+cân bằng bằng 10% (p' <r*) sẽ là một khoản đầu tư bất lợi do tính bình quân, chúng đem lại lợi tức thấp hơn hơn mức lợi tức cân bằng. Trong tinh huống này, bongiabubitntrengurngla.Viecbanchungkhaandinrachotokha ng lên bằng *r và điều kiện thị trường hiệu quả là lại được thoả mãn. Những điều
+mà chúng ta vừa trình bày có thể tóm tắt như sau:
+p'> r→ PT,
+→1P' der→Pit→p' cho đến khi p'= *r
+Một cách khác để nhận định về điều kiện thị trường hiệu quả là nói rằng trong thị trường có hiệu quả, tất cả các cơ hội kếim lợi nhuận chưa được khai thác đều bị loại trừ.
+Một yếu ốt cực kỳ quan trọng trong cách suy luận trên là không phải
+mọi người trên thị trường tài chính đều phải được thông tin đầy đủ về chứng khoán hoặc có kỳ vọng hợp lý về việc giá của nó bị đầy đến điểm mà điều kiện thị trường hiệu quả được thỏa mãn. Thị trường tài chính được thiết lập sao cho những người tham gia có thể mua bán. Trong chừng mực vẫn có một số ít người để mắt tới cơ hội kiếm lợi nhuận chưa được khai thác, thi họ sẽ loại trừ những 169
+
+ Phần II. Thị trường tài
+chính
+cơ hội kiếm lợi nhuận khi chúng xuất hiện, bởi vì khi làm như vậy, họ kiếm được lợi nhuận. Giả thuyết thị trường hiệu quả có ý nghĩa, bởi vi nó không đòi hỏi tất cả mọi người trên thị trường đều phải nhận thức được những xảy ra với mọi chứng khoán.
+Nhiều nhà kinh tế tài chính coi giả
+thuyết thị trường hiệu quả là một bước tiến trong phân tích thị trường tài chính. Không những họ định nghĩa thị trường hiệu quả là thị trường mà trong đó kỳ vọng là hợp ýl - nghĩa là, bằng dự báo tối ưu khi sử dụng tất cả các thông tin hiện có - mà còn bổ sung thêm điều kiện là thị ầrncó( hiều),hcnptiàlhtịtuănchưngKhoán.Bửiyvàphảnnitưùnghệi qua, tất cả các loại giá cả luôn luôn đúng và phản ánh những yếu ốt cơ bản của thị trường (tức các yêu tác động trực tiếp tới dòng thu nhập tương lai của chứng
+khoán). Quan điểm mạnh này về thị trường hiệu quả có
+nhiêu hàm ý quan trọng
+trong môn tài chính. Thứ nhât, nó hàm ý răng trên thị trường vôn hiệu quả, các khoản đầu tư đều tốt như nhau bởi vì giá của tất cả các chứng khoán đều đúng Thứ hai, nó hàm ýrằng giá của chứng khoán phản ánh tất cả các thông tin hiện có về giá trị cố hữu của chứng khoán. Thứ ba, nó hàm ý rằng giám đốc của cả các doanh nghiệp tài chính và phi tài chính đều có thể sử dụng giá
+chứng khoán để đánh giá chính xác chi phí về vốn của minh (tức chi phí tài trợ cho các khoản đầu tư của họ) và bởi vậy, giá chứng khoán có thể giúp họ đưa ra quyết định đúng về việc có nên thực hiện một khoản đầu tư cụ thể hay không. Dạng mạnh này của giả thuyết thị trường hiệu quả là nguyên ýl cơ bản của nhiều phân tích trong lĩnh vực tài chính.
+V. BẰNG CHỨNG VỀ GIẢ THUYẾT THỊ TRƯỜNG HỆIU
+QUẢ
+Những bằng chứng ban đầu tỏ ra ủng hộ giả thuyết thị trường hiệu quả, nhưng trong những năm gần đây, sự phân tích sâu hơn về các bằng chứng cho thây rằng giả thuyết đó không phải lúc nào cũng đúng. Trong phần này, trước hệt chúng ta xét xem cả các bằng chứng ủng hộ giả thuyết đó, sau đó sẽ tìm hiểu một vài bằng chứng gần đây hơn đã gây
+ra đôi chút nghi ngờ về nó.
+Bằng chứng ủng hộ giả thuyết thị trường hiệu quả
+Bằng chứng ủng hộ giả thuyết thị trường
+hiệu quả được rút ra ừt việc xem xét kết quả hoạt động của các nhà phân tích đầu tư và quỹ hỗ tương. Nó cho chúng ta biết giá cổ phiếu có phản ánh các thông tin hiện có được công bố rộng rãi không, giá cổ phiếu có biểu hiện ngẫu nhiên không và cái được gọi àl phân tích kỹ thuật có đem lại thành công không.
+Kết quả hoạt động của các nhà phân
+tích đầu ưt và quỹ hỗ tương
+Chúng ta đã thấy rằng một trong các hàm ý của giả thuyết thị trường hiệu quả là khi mua chứng khoán, bạn không thể dự kiến sẽ kiếm được mức lợi tức
+cao bất thường, tức lợi tức lớn hơn mức lợi tức cân bằng. Điều này có nghĩa là người ta không thể "đánh bại thị trường". Nhiều công trình nghiên cứu đã làm sáng tỏ vấn adlalieucacnhatuvandauturvaquyhot rong(mamotsochuyenphanIonle 170
+
+ Chương 7 Thị trường chứng khoán, lý thuyết kỳ vọng hợp lý và giả thuyết thị trường hiệu quả
+phi bán hàng sang cho người mua chúng) có đánh bại thị trường không. Cách kiếm định được áp dụng phố biến là thu thập các khuyến nghị mua và bán từ một nhóm các nhà tư vấn hoặc quỹ hỗ tương,
+sau đó so sánh kết quả hoạt động của một nhóm cổ phiếu rút ra từ đó với thị trường với tư cách một tổng thể. Đôi khi sự lựa chọn của các nhà tư vấn được so sánh với một nhóm cổ phiếu được chọn ngẫu nhiên trên một trang của tờ tài chính, ví dụ tờ Tạp chi Phố Uôn. Các nhà tư vấn có đem lại kết quả cao hơn không? Câu trả lời ởđây là không: số lần các nhà tư vấn đạt được kết quả cao hơn thường bằng số lần họ đạt kết quả thấp hơn. Ngoài ra, ngay cả khi phép so sánh chỉ bao gồm nhóm các nhà tư vấn
+trước đây đã từng thành công
+trong dự báo thị trường chứng khoán, thi nhóm này không phải lúc nào cũng đạt kết quả cao hơn.
+Phù hợp với giả thuyết thị trường hiệu quả, quỹ hỗ tương cũng không đánh bại được thị trường. Không những tính bình quân quỹ hỗ tương không đạt được kết quả cao hơn thị trường, mà khi họ được tách thành hai nhóm: một nhóm đạt được lợi nhuận cao nhất và một nhóm đạt lợi nhuận thấp
+nhất trong thời kỳ lựa
+chọn, thì nhóm thứ nhất (các quỹ hỗ tương hoạt động tốt và có lợi nhuận cao) trong thời kỳ thứ nhất cũng không đánh bại được thị trường trong thời kỳ thứ hai.
+Kết luận rút ra từ công trình nghiên cứu về kết quả hoạt động của các nhà tư vấn đầu tư và quỹ hỗ tương là: việc hoạt động tốt trong quá khứ không cho thấy rằng nhà tư vấn đầu tư hoặc quỹ hỗ tương sẽ hoạt động tốt trong tương lai. Đây không phải là tin tức tôt lành cho các nhà tư vân đầu tư, nhưng nó lại chính là điều
+mà giả thuyết thị trường hiệu quả dự báo. Nó nói rằng một số nhà tư vấn đầu tư gặp may và một số nhà tư vấn đầu tư không gặp may. Việc gặp may không có nghĩa là nhà dự báo thực sự có khả năng đánh bại thị trường.
+Giá cổ phiếu có phản ánh các thông tin hiện có được công
+bố rộng rãi không?
+Giả thuyết thị trường hiệu quả dự báo rằng giá cổ phiếu phản ánh tất cả các thông tin hiện có được công bố. Bởi vậy nếu công chúng đã nắm được thông tin, thi việc công bố tin tức tốt lành về một công yt tính bình quân sẽ không làm tăng giá cô phiếu của nó, bởi vì thông tin này đã được phản ánh trong giá cô phiêu.
+Những bằng chứng thực nghiệm ban đầu cũng xác nhận kết
+luận đó của gia thuyết thị trường hiệu quả: các thông báo về thu nhập hay chia nhỏ cố phiếu (tức chia một cổ phiếu thành nhiều cổ phiếu, điều thường dẫn tới thu nhập
+cao hơn) tính bình quân không làm cho giá cổ phiếu tăng.
+Biểu hiện ngẫu nhiên của giá cổ phiếu
+Thuật
+ngữ ngẫu nhiên mô tả sự biến động của một biến số mà những thay đổi tương lai của nó không thê dự báo được bởi vì với giá trị hiện t ạ i cho trước, biến số có thể giảm mà cũng có thể tăng. Hàm ý quan trọng của giả thuyết thị trường hiệu quả là giá cổ phiếu hầu như tuân theo quy luật ngâu
+nhiên. Nghĩa là, những thay đổi tương lai trong giá cổ phiếu không dự báo được đối với mọi mục đích thực tế. Hàm ý ngẫu nhiên của giả thuyết thị trường hiệu quả được nhắc đến nhiều nhất trên báo chí, bởi vì nó là hàm ý dễ hiểu
+nhất đối với công chúng. Trên thực tế, khi mọi người nói L"ý thuyết ngẫu nhiên về giá cổ phiếu", thì thực ra họ đã nói đến giả thuyết thị trường hiệu quả.
+171
+
+ Phần II. Thị trường tài chính
+Chúng ta có thể chứng minh cho tình huống giá cổ phiếu ngẫu nhiên. Giả sử mọi người dự báo được rằng giá cổ phiếu của công ty Happy Feet (HFC) sẽ tăng 1%trongtuầntới. Khiđótỷlệlãivềvốnvàtỷlệlợitứcdựbáothuđượctừ
+cô phiêu của HFC sẽ là trên 50% một năm. Con sô này
+rât có khả năng cao hơn nhiều so với tỷ lệ lợi tức cân bằng thu được từ cổ phiếu của HFC (/' - r*). Do vậy, giả thuyết thị trường hiệu quả chỉ ra rằng mọi người sẽ ngay lập tức mua cỗ phiếu này và đẩy mức giá hiện hành của nó lên cao. Chiều hướng hành động như vậy chỉ dừng lại khi mức thay đổi có thể dự báo được trong giá cổ phiếu giảm xuống gần bằng 0, tức p' =r*.
+1%,t yfeiouedybaoseam(dr )a meinguengaylaptuctimCan bán ra. Giá hiện hành của cổ phiếu HFC sẽ giảm cho tới khi sự thay đổi có thể
+dự báo trong giá cổ phiếu HFC tăng trở lại mức bằng 0 và bởi vậy điều kiện
+thị trayđốiudbủiạticợrtngt agiócgiàởtsthiăntgoviiqunảchiunărng
+giá cổ phiếu nhìn chung tuân theo quy luật ngẫu nhiên.
+Các nhà kinh tế tài chính đã sử dụng hai dạng kiểm định để nghiên cứu giả thuyết cho rằng giá cổ phiếu tuân theo quy luật ngẫu nhiên. Trong dạng thứ
+nhất, họ nghiên cứu số liệu ghi chép được về thị trường cô phiêu đê tìm hiêu xem những thay đổi trong giá cổ phiếu có tính hệ thống không, có gắn với những thay đổi trong quá khứ không và vì vậy có thể dự báo được trên cơ sở đó không. Trong dạng kiểm định thứ hai, họ khảo sát số liệu để tìm hiểu xem các thông tin hiện có được công bố rộng rãi ngoài giá cổ phiếu trong quá khứ có thể sử dụng để dự báo sự thay đổi không. Những kiểm định này được thực hiện chặt chẽ hơn đôi chút bởi vì các thông tin bổ sung (tốc độ tăng cung tiền, chi tiêu của chính phủ, lãi suất, lợi nhuận công ty) có thể được sử dụng để hỗ trợ cho dự báo về lợi tức của cổ phần. Những kết quả ban đầu thu được từ cả hai dạng kiểm định nhìn chung xác nhận quan điểm thị trường hiệu quả cho rằng giá cổ phiếu không thể dự báo được và tuân theo quy luật ngẫu nhiên.
+Phân tích kỹ thuật
+Một kỹ thuật thường được sử dụng để dự báo giá cổ
+phiếu có tên là phân tích kỹ thuật. Nó được dùng đề nghiên cứu số liệu quá khứ về giá cổ phiếu và tìm hiểu các đặc trưng của nó, chẳng hạn xu thế và các chu kỳ lặp đi lặp lại. Sau đó, người ta thiết lập các quy tắc mua, bán cổ phiếu trên cơ sở các đặc trưng đã phát hiện được. Giả thuyết thị trường hiệu quả chỉ ra rằng phân tích kỹ thuật àl sự lãng phí thời gian. Cách đơn giản nhất để hiểu tại
+sao là sử dụng kết quả ngẫu nhiên được rút ra từ giả thuyết thị trường hiệu quả: nếu giả thuyết này ốđn ởi yvà phn cth yk thuật, phương pháp đựa êitn các ốs ậu h h vayray tạo ra các dự báo, không thể dự báo đúng những thay đổi trong giá cổ phiếu.
+Hai dạng của kiểm định trực tiếp dựa vào giá trị của phân tích kỹ thuật. Kiểm định thứ nhất thực hiện phân tích thực nghiệm được mô tả trên đây để đánh giá
+172
+
+ Chương 7 Thị trường chứng khoán, lý thuyết kỳ vọng hợp lý và giả thuyết thị trường hiệu quả
+kết quả hoạt động của bất kỳ nhà phân tích tài chính nào, bao gồm cả nhà phân tích kỹ thuật và những người khác. Kết quả đúng là điều mà giả thuyết thị trường hiệu quả dự báo: các nhà phân tích kỹ thuật không đạt kết quả tốt hơn các nhà phân tích t à i chính khác. Tinh bình quân, họ không đạt được kết quả cao hơn thị trường và kết quả dự báo chính xác
+trong quá khứ không hàm ý rằng các dự báo đạt được kết quả cao hơn thị trường trong tương lai. Dạng kiểm định thứ hai lấy các quy tắc do phân tích kỹ thuật phát triển để mua và bán cố phiếu, cũng như
+sự dụng chúng vào các sô liệu mới. Sau đó, kết quả mà các quy tắc này đem lại được đánh giá bằng lợi nhuận lẽ ra sẽ kiểm được nếu sử dụng chúng.
+Các kiểm định làm cho chúng ta mất niềm tin vào phân
+tích kỹ thuật: nó không đem lại kết quả cao hơn thị trường nói chung.
+Vận dụng: phải chăng tỷ giá hối đoái tuân theo quy luật ngẫu nhiên?
+Mặc dù giả thuyết thị trường hiệu quả thường được vận dụng vào thị trường cổ phiếu, song nó cũng có thể được sử dụng để nhận định rằng giống như giá cỗ phiếu, ỷt giá hối đoái nhìn chung tuân theo quy luật ngẫu nhiên. Để hiểu tại sao điều này lại đúng, chúng ta hãy xem điều gì xảy ra nếu mọi người dự báo được rằng một đồng tiền nào đó sẽ lên giá 1% trong tuần tới. Thông qua việc mua đồng tiền này, họ sẽ kiếm được trên 50% lợi tức một năm và đây là ỷt lệ lợi tức cao hơn rất nhiều so với mức cân bằng thu được từ việc nắm giữ một đồng tiền. Kết quả là, mọi người ngay lập tức mua đồng tiền đó và đẩy giá hiện hành của nó tăng lên, qua đó làm giảm lợi tức dự kiên. Quá trình này chỉ dừng lại khi sự thay đổi dự báo được của tỷ giá hồi đoái giảm xuống gần tới 0 và vì vậy mức dự báo tối ưu của lợi tức không còn khác lợi tức cân bằng. Tương tự, nếu mọi người dự báo được rằng đồng tiền đó xuống giá 1% trong tuần tới, họ sẽ bán nó ra cho tới khi sự thay đổi dự báo được trong ỷt giá hối đoái lại trở về mức gần bằng 0. Bởi vậy, giả thuyết thị trường hiệu quả hàm ýrằng những thay đổi tương lai trong tỷ giá hối đoái không thể dự báo được đối với tất cả các mục đích thực tế. Nói cách khác, tỷ giá hối đoái tuân theo quy luật ngẫu nhiên. Điều này đúng là cái mà bằng chứng thực nghiệm chỉ ra.
+Bằng chứng chống lại giả thuyết thị trường hiệu quả
+Số bằng chứng ban đầu ủng hộ giả thuyết thị trường hiệu quả tỏ ra quá nhiều. Điều này làm cho Eugene Fama, nhà kinh ết tài chính hàng đầu, nhận định trong cuộc điều tra nổi tiếng của mình về bằng chứng
+thực nghiệm cho giả thuyết thị
+học) bằng chứng chống lại nó hầu như không có".
+Song trong những năm gần đây, giả thuyết này bắt đầu cho thầy có có một vài điều không ổn, được gọi là các tinh huống bất thường và bằng chứng thực nghiệm chỉ ra
+răng giả thuyết thị
+trường hiệu quả không phải lúc nào cũng đúng.
+Hiệu ứng doanh nghiệp nhỏ
+Một trong các tình huống bất thường được phát hiện sớm nhất mà trong đó thị trường chứng khoán tỏ ra không có hiệu quả được gọi là hiệu ứng doanh nghiệp
+173
+
+ Phần II. Thị trường tài chính
+nhỏ. Nhiều công trình nghiên cứu thực nghiệm đã chỉ ra rằng các doanh nghiệp nhỏ đã kiếm được mức lợi tức cao bất thường trong khoảng thời gian dài, ngay cả khi mức rủi ro lớn hơn đối với các doanh nghiệp này được tính đến. Hiệu ứng
+d onthmothachthivedovorgiathuy inttrongheuqua,Caclythuyata c nhau được phát triển để lý giải hiệu ứng doanh nghiệp nhỏ cho thấy rằng nó có
+thể có nguyện nhân ở việc tái cân đối danh mục đầu tư của các nhà đầu tư tổ chức, các vấn đề thuế, tính thanh khoản thấp của cổ phiếu doanh nghiệp nhỏ,
+chi phí thông tin lớn trong việc đánh giá doanh nghiệp nhỏ hoặc cách tính không thích hợp đối với rủi ro của cổ phiếu doanh nghiệp nhỏ.
+Hiệu ứng tháng giêng
+Trong khoảng thời gian dài, giá của các cổ phiếu có xu hướng trải qua sự tăng giá bất thường. Chúng tăng từ tháng mười hai đến tháng giêng, nghĩa là người ta có thể dự báo được và điều này mâu thuẫn với biểu hiện ngẫu nhiên. Cái được gọi là hiệu ứng tháng giêng này dường như đã biến mất trong những năm gần đây đối với cổ phiếu của các công yt lớn, nhưng vẫn còn xảy ra đối với cổ phiếu của nhiều công ty nhỏ. Một vài nhà kinh tế tài chính lập luận răng hiệu ứng
+tháng giêng có nguyên nhân ở các
+vẫn đề liên quan đên thuê. Các nhà
+đâu tư có động cơ bán cổ phiếu vào cuối năm (tháng 12) bởi vì cách làm này làm cho họ bị lỗ về vốn, qua đó giảm được mức thuế phải nộp. Sau đó, khi năm mới bắt vào tháng giêng, họ có thể mua lại cổ phiếu, qua đó đẩy giá của chúng lên và tạo ra lợi tức cao bất thường. Mặc dù cách lý giải này có vẻ dê hiêu, song nó không cho
+biết tại sao các nhà đầu tư tổ chức, chẳng hạn quỹ hưu trí tư nhân, một tổ chức không phải chịu thuế thu nhập, lại không tận dụng lợi thế về lợi tức cao bất thường trong tháng giêng và mua cổ phiếu vào tháng 12, qua đó đẩy giá cỗ phiếu lên và loại trừ mức lợi tức cao bất thường.
+Phản ứng quá mạnh của thị
+trường
+Những nghiên cứu gần đây cho thấy rằng giá cổ phiếu có thể phản ứng quá mạnh đối với những thông tin mới và các sai số trong việc định giá chỉ được hiệu chỉnh một cách chậm chạp. Khi các công ty công bô sự thay đôi lớn trong thu nhập - vi dụ thu nhập giảm mạnh - giá của các cổ phiếu có thể giảm quá mạnh
+và sau sự sụt giảm lớn ban đầu, chúng tăng trở lại tới mức cao hơn bình thường trong một thời kỳ kéo dài nhiều tuần. Điều này vi phạm giả thuyết thị trường hiệu quả,
+bởi vì tính bình quân, nhà đầu tư có thể kiếm được mức lợi tức cao bất thường nhờ việc mua cố phiếu ngay sau khi mức thu nhập thấp được công bố và bán chúng sau vài tuần,
+khi giá của chúng đã tăng trở lại mức bình thường.
+Biến động quá mạnh
+Một hiện tượng gắn chặt với phản ứng quá mạnh của thị trường là thị trường chứng khoán tỏ ra biến động quá mạnh. Nghĩa là, những biến động trong giá cô phiếu có thể lớn hơn nhiều so với mức được đảm bảo bằng những biến động trong giá trị cơ bản của chúng. Trong một bài báo quan trọng, Robert Shiller
+174
+
+ Chương 7 Thị trường chứng khoán, lý thuyết kỳ vọng hợp lý và giả thuyết thị trường hiệu quả
+thuộc trường Đại học tông hợp Yale đã phát hiện ra rằng những biên động trong chỉ sô cô phiêu S&P500 không thê lý giải bằng những biên động sau đó trong cô
+tức của các cổ phiếu cấu thành chỉ số chứng khoán này. Nhiều công trình nghiên cứu kỹ thuật đã phê phán phát hiện đó. Nhưng công trình của Shiller, cùng với phát hiện trong các công trình nghiên cứu khác là
+có sự biến động nhỏ hơn trọng giá cô phiệu khi thị trường cô phiếu đóng cửa, đã tạo ra sự nhất trị răng giá thị trường của cô phiêu còn bị chi phối bởi các yêu tô khác nữa, ngoài những yếu ốt cơ bản.
+Xu thế hồi quy
+Một số nhà nghiên cứu cũng phát hiện ra rằng lợi tức của cổ phần có xu thế hồi quy: cổ phiếu với lợi tức hiện tại thấp có xu hướng đem lại lợi tức cao trong tương lai và ngược lại. Bởi vậy, những cổ phiếu yếu kém trong quá khứ có nhiều khả năng tốt trong tương lai. Do xụ thế hồi quy (quay lại giá trị trung bình) chỉ ra răng có sự gia tăng (mức thay đôi lớn hơn 0) của giá cả trong tương lai, nên
+chúng ta có thê khăng định răng giá cô phiêu không tuân theo quy luật ngâu nhiên. Các nhà nghiên cứu đã phát hiện ra rằng xu thế hồi quy không còn mạnh như số liệu sau Thế chiến I cho thấy và vi vậy, người ta nghi ngờ về việc không biết hiện tại nó có còn là hiện tượng quan trọng nữa không. Bằng chứng về xu thế hồi quy hiện vẫn còn là vấn đề tranh cãi.
+Thông tin mới không phải lúc nào cũng được đưa ngay vào giá cổ phiếu
+Mặc dù nhìn chung giá cổ phiếu điều chỉnh nhanh chóng khi có thông tin mới như giả thuyết thị trường hiệu quả chỉ ra, nhưng bằng chứng mới đây cho thấy rằng khác với giả thuyết thị trường hiệu quả, giá cổ phiếu không điều chỉnh ngay lập tức khi có các thông tin về lợi nhuận. Thay vào đó, nhìn chung giá cố phiếu tiếp tục tăng một thời gian sau khi thông tin về mức lợi nhuận cao bất thường được công bố và tiếp tục giảm một thời gian sau khi thông tin về mức lợi nhuận thấp bắt thường được công bố.
+Nhận xét khái quát về bằng
+chứng cho giả thuyết thị trường hiệu quả
+Như
+bạn thấy, cuộc tranh luận về giả thuyết thị trường hiệu quả còn lâu mới kết thúc. Bằng chứng dường như cho thấy rằng giả thuyết thị trường hiệu quả có lẽ là điểm khởi đầu hợp ýl cho việc đánh giá hành vi trên thị trường tài chính. Tuy nhiên,
+cũng có những vị phạm quan trọng đối với thị trường hiệu quả và điều này cho thấy rằng giả thuyết thị trường hiệu quả không phải là toàn bộ vẫn đề, cũng như không thể khái quát hóa cho tất cả các hành vi trên thị trường tài chính.
+Vận dụng: những chỉ dẫn cụ thể về đầu tư vào thị trường chứng khoán
+Giả thuyết thị trường hiệu quả có rất nhiều ứng dụng trong thực tế. Nó đặc biệt có giá trị vì có thể vận
+dụng vào một vấn đề mà nhiều người trong chúng ta quan tâm: làm thế nào để trở nên giàu có (hay ít nhất cũng không bị nghèo đi) trên thị trường chứng khoán. Những chỉ dẫn cụ thể về đầu tư vào thị trường chứng khoán ẽs giúp bạn hiểu rõ hơn các hàm ývà ứng dụng của giả
+thuyết thị 175
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
