@@ -53,7 +53,7 @@
           <li class="optionAI-item" style="border-top: 1px solid #ccc">
             Llama2
           </li>
-        </ul>
+        </ul> 
         <span class="optionAI-box">
           <span>++</span>
           <div class="optionAI-hover">
@@ -92,6 +92,8 @@ const conversationContainer = document.querySelector('.user-chatPDF-conversation
 var searchForm = document.getElementById('input-form');
 searchForm.addEventListener('submit', async function(event) {
   event.preventDefault();
+  var formData = new FormData(searchForm);
+  formData.append('input_text', searchForm.elements.input_text.value);
   const user_chat = messageInput.value;
   let receivedResponse = false;
   messageInput.value = '';
@@ -129,8 +131,7 @@ searchForm.addEventListener('submit', async function(event) {
     </div>
   `;
 
-  var formData = new FormData(searchForm);
-  formData.append('input_text', searchForm.elements.input_text.value);
+  
   try {
     const response = await fetch('/completion', {
       method: 'POST',
