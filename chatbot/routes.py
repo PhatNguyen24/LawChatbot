@@ -66,15 +66,6 @@ def convert_name_to_abbreviation(name):
 
 
 
-@app.route('/completion', methods=['GET', 'POST'])
-def completion_api():
-    if request.method == "POST":
-        data = request.form
-        input_text = data['input_text']
-        return Response(stream(input_text), mimetype='text/event-stream')
-    else:
-        return Response(None, mimetype='text/event-stream')
-
 # ////////////////////
 
 @app.route('/')
@@ -196,21 +187,37 @@ def delete_topic():
     else:
         return jsonify({'error': 'Dữ liệu không hợp lệ'}), 400
 
-@app.route('/add_conversation', methods=['POST'])
+@app.route('/add_conversation', methods=['GET', 'POST'])
 def add_conversation():
-    data = request.get_json()
-    if 'topic_id' in data:
-        topic_id = data['topic_id']
-        user_chat = data['user_chat']
-        bot_chat = get_conversation_chain(vec)({"question": (prompt + user_chat)})
-        conversation = Conversation( user_chat = user_chat, bot_chat = bot_chat["answer"], topic_id = topic_id)
-        db.session.add(conversation)
-        db.session.commit()
-        # text_to_speech(bot_chat["answer"])
-        return jsonify({'user_chat': user_chat, 'bot_chat': bot_chat["answer"]})
+    # data = request.get_json()
+    if request.method == "POST":
+        data = request.form
+        if 'input_text' in data:
+            if 'topic_id' in data:
+                topic_id = data['topic_id']
+                user_chat = data['user_chat']
+                bot_chat = get_conversation_chain(vec)({"question": (prompt + user_chat)})
+                conversation = Conversation( user_chat = user_chat, bot_chat = bot_chat["answer"], topic_id = topic_id)
+                db.session.add(conversation)
+                db.session.commit()
+                # text_to_speech(bot_chat["answer"])
+                return jsonify({'user_chat': user_chat, 'bot_chat': bot_chat["answer"]})
+            else: 
+                input_text = data['input_text']
+                return Response(stream(input_text), mimetype='text/event-stream')
+    # if 'topic_id' in data:
+    #     
+
+
+@app.route('/completion', methods=['GET', 'POST'])
+def completion_api():
+    if request.method == "POST":
+        data = request.form
+        input_text = data['input_text']
+        return Response(stream(input_text), mimetype='text/event-stream')
     else:
-        user_chat = data['user_chat']
-        return Response(stream(user_chat), mimetype='text/event-stream')
+        return Response(None, mimetype='text/event-stream')
+
 @app.route('/upload', methods=['POST'])
 def upload_file():
     uploaded_file = request.files['file']

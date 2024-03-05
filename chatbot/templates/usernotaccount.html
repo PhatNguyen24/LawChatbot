@@ -133,7 +133,7 @@ searchForm.addEventListener('submit', async function(event) {
 
   
   try {
-    const response = await fetch('/completion', {
+    const response = await fetch('/add_conversation', {
       method: 'POST',
       body: formData
     });
