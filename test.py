@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-openai.api_key = "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"
+openai.api_key = "sk-"
 persist_directory = os.environ.get('PERSIST_DIRECTORY')
 embeddings_model_name = os.environ.get('EMBEDDINGS_MODEL_NAME')
 embeddings = HuggingFaceEmbeddings(model_name=embeddings_model_name)

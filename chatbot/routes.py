@@ -18,7 +18,7 @@ embeddings = HuggingFaceEmbeddings(model_name=embeddings_model_name)
 docsearch = Chroma(embedding_function=embeddings, persist_directory=persist_directory)
 
 def gen_prompt(docs, query) -> str:
-    return f"""To answer the question please only use the Context given, nothing else. 
+    return f"""To answer the question please only use the Context given, nothing else. If you dont know, say "I don't know"
 Question: {query}
 Context: {[doc.page_content for doc in docs]}
 Answer:

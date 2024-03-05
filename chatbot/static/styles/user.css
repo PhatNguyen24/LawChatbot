@@ -191,10 +191,6 @@
     position: relative;
     width: 400px;
     height: 400px;
-    top: -70%;
-    left: 30%;
-    object-fit: scale-down;
-    opacity: 0.1;
 }
 
 .user-chatPDF-conversation {

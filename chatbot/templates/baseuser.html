@@ -99,12 +99,18 @@
       {% endfor %}
     </div>
     <div class="background-image"></div>
-    <div class="chatPDF-message">
+    <!-- <div class="chatPDF-message">
       <textarea id="messageInput" rows="1" placeholder="Send a message" class=""></textarea>
       <button class="chatPDF-message-btn" id="sendMessageButton">
         <i class="fas fa-play"></i>
       </button>
-    </div>
+    </div> -->
+    <form class="chatPDF-message" id="input-form" method="POST" class="d-flex">
+      <input placeholder="Send a message" type="text" id="messageInput" name="input_text" maxlength="500" class="d-flex">
+      <button class="chatPDF-message-btn" id="sendMessageButton">
+        <i class="fas fa-play"></i>
+      </button>
+    </form>
   </div>
 
   <div class="user-feelback">
