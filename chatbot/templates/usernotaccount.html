@@ -145,17 +145,26 @@ searchForm.addEventListener('submit', async function(event) {
       const chatItemMessageAI = chatChatDiv.querySelector('.chat-item-messageAI');
       chatItemMessageAI.innerHTML += text; 
 
+<<<<<<< HEAD
       // Kiểm tra nếu chưa nhận được câu trả lời từ server
       if (!receivedResponse) {
-        receivedResponse = true; // Đặt biến receivedResponse thành true
-        console.log(receivedResponse);
-        // Loại bỏ biểu tượng loading
-        // const chatItemMessageAI = chatChatDiv.querySelector('.chat-item-messageAI');
-        // const iconSpinner = chatItemMessageAI.querySelector('i.fa-spinner');
-        // if (iconSpinner) {
-        //   iconSpinner.parentNode.removeChild(iconSpinner);
-        // }
-      }
+    receivedResponse = true; // Đặt biến receivedResponse thành true
+    console.log(receivedResponse);
+    // Loại bỏ biểu tượng loading nếu có giá trị text
+    if (text.trim() !== '') {
+        const iconSpinner = chatChatDiv.querySelector('.icon-spinner');
+        if (iconSpinner) {
+            iconSpinner.parentNode.removeChild(iconSpinner);
+        }
+    }
+}
+=======
+      // Loại bỏ class icon
+      // const iconSpinner = chatItemMessageAI.querySelector('i.fa-spinner');
+      // if (iconSpinner) {
+      //   iconSpinner.classList.remove('fa-spin');
+      // }
+>>>>>>> df5faa4f18ab36188f3e69b2971b45ffcff151cd
 
 scrollBottom();
     }
@@ -164,6 +173,21 @@ scrollBottom();
   }
 });
 
-
+<<<<<<< HEAD
+</script>
+<script>
+  const optionAI = document.querySelector(".optionAI-box");
+  const optionAIList = document.querySelector(".optionAI-list")
+  const optionAIHover = document.querySelector(".optionAI-hover")
+  optionAI.addEventListener('click', function(){
+    optionAIList.style.display = "block";
+    optionAIHover.classList.toggle('show');
+    setTimeout(function(){
+    optionAIList.style.display = "none";
+    optionAIHover.classList.remove('show');
+    }, 4000)
+  })
+=======
+>>>>>>> df5faa4f18ab36188f3e69b2971b45ffcff151cd
 </script>
 {% endblock %}
