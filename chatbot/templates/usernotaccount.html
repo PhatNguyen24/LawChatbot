@@ -4,10 +4,10 @@
   <div class="notaccount">
     <h4>Câu hỏi thường gặp</h4>
     <ul class="notaccount-list">
-      <li>Có thể chat ngay bây giờ không?</li>
-      <li>Tiêu chí tuyển sinh trong năm nay?</li>
-      <li>Điều kiện nhập học của trường là gì?</li>
-      <li>Những quy định của trường phenikaa là gì?</li>
+      <li>Hãy giải thích cho tôi về bản chất của tài chính doanh nghiệp</li>
+      <li>Mục đích sử dụng của cải tài sản cố định?</li>
+      <li>Tại sao tài chính được xem là một công cụ quan trọng trong quản trị doanh nghiệp?</li>
+      <li>Tại sao việc tái cấu trúc công ty lại là một phần quan trọng của chiến lược thay đổi của doanh nghiệp?</li>
     </ul>
     <a href="{{url_for('login')}}" class="btn home-btn-text">Đăng Nhập</a>
   </div>
@@ -71,16 +71,6 @@
   </div>
 </div>
 
-<script>
-  var listItems = document.querySelectorAll('.notaccount-list li');
-  var textarea = document.getElementById('messageInput');
-  listItems.forEach(function (item) {
-    item.addEventListener('click', function () {
-      var itemText = item.textContent;
-      textarea.value = itemText;
-    });
-  });
-</script>
 <script>
   // scroll
   const scrollableContent = document.getElementById("scrollable-content");

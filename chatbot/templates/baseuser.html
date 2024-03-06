@@ -84,15 +84,6 @@
           <p class="chat-item-messageAI">{{ conversation.bot_chat }}</p>
           <span class="chat-feelback" data-conversation-id="{{conversation.id}}">
             <i class="fa-solid fa-comment-dots"></i>
-          </span>
-          <span class="chat-volume" data-conversation="{{conversation.bot_chat}}">
-            <span class="volume volumeOff">
-              <i class="fa-solid fa-volume-xmark"></i>
-            </span>
-            <span class="volume volumeOn" style="display: none;">
-              <i class="fa-solid fa-volume-high"></i>
-            </span>
-          </span>
         </div>
       </div>
 
@@ -105,13 +96,35 @@
         <i class="fas fa-play"></i>
       </button>
     </div> -->
-    <form class="chatPDF-message" id="input-form" method="POST" class="d-flex">
-      <input placeholder="Send a message" type="text" id="messageInput" name="input_text" maxlength="500" class="d-flex">
-      <button class="chatPDF-message-btn" id="sendMessageButton">
-        <i class="fas fa-play"></i>
-      </button>
-    </form>
-  </div>
+    <div class="d-flex chatPDF-message-usernotaccount">
+      <div class="optionAI">
+        <ul class="optionAI-list">
+          <li class="optionAI-item" style="border-top: 1px solid #ccc">
+            ChatGPT
+          </li>
+          <li class="optionAI-item">
+            GPT4All
+          </li>
+          <li class="optionAI-item" style="border-top: 1px solid #ccc">
+            Llama2
+          </li>
+        </ul> 
+        <span class="optionAI-box">
+          <span>Model</span>
+          <div class="optionAI-hover">
+            ChatGPT
+          </div>
+        </span>
+      </div>
+      <form class="chatPDF-message-form" id="input-form" method="POST" class="d-flex">
+        <textarea type="text" id="messageInput" name="input_text" rows="1" placeholder="Send a message" class="d-flex"></textarea>
+        <button class="chatPDF-message-btn" id="sendMessageButton">
+          <i class="fas fa-play"></i>
+        </button>
+      </form>
+    </div>
+</div>
+
 
   <div class="user-feelback">
     <div class="box-feelback">
@@ -286,7 +299,7 @@
     });
 </script>
 
-<script>
+<!-- <script>
   const scrollableContent = document.getElementById("scrollable-content");
   function scrollBottom() {
     scrollableContent.scrollTop = scrollableContent.scrollHeight;
@@ -404,9 +417,99 @@
     displayWord();
   }
   scrollBottom();
-</script>
+</script> -->
 
 <script>
+  // scroll
+  const scrollableContent = document.getElementById("scrollable-content");
+  function scrollBottom() {
+    scrollableContent.scrollTop = scrollableContent.scrollHeight;
+  }
+  // Gửi tin nhắn
+const conversationContainer = document.querySelector('.user-chatPDF-conversation');
+var searchForm = document.getElementById('input-form');
+searchForm.addEventListener('submit', async function(event) {
+  event.preventDefault();
+  var formData = new FormData(searchForm);
+  formData.append('input_text', searchForm.elements.input_text.value);
+  if (selectedModel !== '') {
+    formData.append('model', selectedModel); // Thêm tên model vào FormData
+  }
+  const topic_id = "{{topic.id}}";
+  formData.append('topic_id', topic_id);
+  
+  const user_chat = messageInput.value;
+  let receivedResponse = false;
+  messageInput.value = '';
+  // Tạo div chứa câu hỏi của người dùng
+  const userChatDiv = document.createElement('div');
+  userChatDiv.className = 'user-chat';
+  userChatDiv.innerHTML = `
+    <div class="chat-item">
+      <p class="chat-item-message">
+        ${user_chat}
+      </p>
+    </div>
+    <div class="chat-tk" id="scrollable-content">
+      <span class="username">
+        <i class="fa-solid fa-user"></i>
+      </span>
+    </div>
+  `;
+  conversationContainer.appendChild(userChatDiv);
+
+  // Tạo div chứa câu trả lời của bot
+  const chatChatDiv = document.createElement('div');
+  chatChatDiv.className = 'chat-chat';
+  conversationContainer.appendChild(chatChatDiv);
+  chatChatDiv.innerHTML = `
+    <div class="chat-AI">
+      <span>
+        <img src="{{url_for('static', filename='images/artificial-intelligence.png')}}"/>
+      </span>
+    </div>
+    <div class="chat-item">
+      <p class="chat-item-messageAI">
+        <i class="fa-solid fa-spinner fa-spin icon-spinner"></i>
+      </p>
+    </div>
+  `;
+
+  
+  try {
+    const response = await fetch('/add_conversation', {
+      method: 'POST',
+      body: formData
+    });
+    const reader = response.body.getReader();
+    while (true) {
+      const {done, value} = await reader.read(); 
+      if (done) break;  
+      const text = new TextDecoder().decode(value); 
+      
+      // Tìm câu trả lời của bot và thêm nội dung
+      const chatItemMessageAI = chatChatDiv.querySelector('.chat-item-messageAI');
+      chatItemMessageAI.innerHTML += text; 
+
+      // Kiểm tra nếu chưa nhận được câu trả lời từ server
+      if (!receivedResponse) {
+    receivedResponse = true; // Đặt biến receivedResponse thành true
+    console.log(receivedResponse);
+    // Loại bỏ biểu tượng loading nếu có giá trị text
+    if (text.trim() !== '') {
+        const iconSpinner = chatChatDiv.querySelector('.icon-spinner');
+        if (iconSpinner) {
+            iconSpinner.parentNode.removeChild(iconSpinner);
+        }
+    }
+}
+
+scrollBottom();
+    }
+  } catch (error) {
+    console.error(error);
+  }
+});
 
 </script>
 
@@ -445,41 +548,30 @@
 </script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const volumeControls = document.querySelectorAll('.chat-volume');
+  let selectedModel = 'ChatGPT';
+  const optionAI = document.querySelector(".optionAI-box");
+  const optionAIList = document.querySelector(".optionAI-list");
+  const optionAIHover = document.querySelector(".optionAI-hover");
+  
+  // Lắng nghe sự kiện click vào một mục trong danh sách
+  optionAIList.addEventListener('click', function(event) {
+    // Kiểm tra xem phần tử được click là một mục trong danh sách
+    if (event.target.classList.contains('optionAI-item')) {
+      selectedModel = event.target.textContent.trim(); 
+      // Lấy nội dung của mục được click
+      const modelName = event.target.textContent.trim();
+      // Thay đổi nội dung của optionAI-hover thành tên model được chọn
+      optionAIHover.textContent = modelName;
+    }
+  });
 
-    volumeControls.forEach(function (volumeControl) {
-      const volumeOff = volumeControl.querySelector('.volumeOff');
-      const volumeOn = volumeControl.querySelector('.volumeOn');
-      // Bắt sự kiện click cho từng phần tử
-      volumeControl.addEventListener('click', function () {
-        conversation = volumeControl.getAttribute("data-conversation");
-
-        // Toggle giữa hiển thị và ẩn các icon
-        if (volumeOff.style.display !== 'none') {
-          volumeOff.style.display = 'none';
-          volumeOn.style.display = 'block';
-          // Thực hiện các công việc khi âm thanh được bật
-          console.log('Volume is ON');
-          fetch("/out_voice", {
-            method: "POST",
-            body: JSON.stringify({
-               conversation: conversation
-            }),
-            headers: {
-              "Content-Type": "application/json",
-            },
-          })
-
-          // Thực hiện các công việc khi âm thanh được tắt
-        } else {
-          volumeOff.style.display = 'block';
-          volumeOn.style.display = 'none';
-          console.log('Volume is OFF');
-        }
-      });
-    });
+  optionAI.addEventListener('click', function(){
+    optionAIList.style.display = "block";
+    optionAIHover.classList.toggle('show');
+    setTimeout(function(){
+    optionAIList.style.display = "none";
+    optionAIHover.classList.remove('show');
+    }, 4000)
   });
 </script>
-
 {% endblock %}

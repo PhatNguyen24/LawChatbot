@@ -39,30 +39,25 @@ template="""Use the following pieces of information to answer the user's questio
 qa_prompt=PromptTemplate(template=template, input_variables=['context', 'question'])
 
 def gen_prompt(docs, query) -> str:
-    return f"""To answer the question please only use the Context given, nothing else. If you dont know, say "I don't know"
+    return f"""To answer the question please only use the Context given, nothing else.
 Question: {query}
 Context: {[doc.page_content for doc in docs]}
 Answer:
 """
 
 def prompt(query):
-     docs = docsearch.similarity_search(query, k=4) # tìm kiếm 4 văn bản tương tự 
+     docs = chromadb.similarity_search(query, k=4) # tìm kiếm 4 văn bản tương tự 
      prompt = gen_prompt(docs, query)
      return prompt
 
 def stream(input_text):
-        completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[
-            {"role": "system", "content": "You're an assistant."},
-            {"role": "user", "content": f"{prompt(input_text)}"},
-        ], stream=True, temperature=0.5)
-        for line in completion:
-            if 'content' in line['choices'][0]['delta']:
-                yield line['choices'][0]['delta']['content']  #tương tự return, khác cái là trả về hết vòng lặp thì mới thoát khỏi hàm
-                # print(line['choices'][0]['delta']['content'],end='', flush=True)
-
-# @app.route('/', methods=['GET', 'POST'])
-# def index():
-#     return render_template('index.html')
+    completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[
+        {"role": "system", "content": "You're an assistant."},
+        {"role": "user", "content": f"{prompt(input_text)}"},
+    ], stream=True, temperature=0.5)
+    for line in completion:
+        if 'content' in line['choices'][0]['delta']:
+            yield line['choices'][0]['delta']['content']  #tương tự return, khác cái là trả về hết vòng lặp thì mới thoát khỏi hàm
 
 @app.template_filter('add_hours')
 def add_hours(dt):
@@ -214,18 +209,43 @@ def add_conversation():
         if 'input_text' in data:
             input_text = data['input_text']
             model_type = data['model']
+            print(model_type)
+            # print(input_text)
             model_path = "chatbot/models/ggml-gpt4all-j-v1.3-groovy.bin"
             if 'topic_id' in data:
                 topic_id = data['topic_id']
-                user_chat = data['user_chat']
-                bot_chat = get_conversation_chain(vec)({"question": (prompt + user_chat)})
-                conversation = Conversation( user_chat = user_chat, bot_chat = bot_chat["answer"], topic_id = topic_id)
+                model_type = data['model']
+                if(model_type == "ChatGPT"):
+                    # return Response(stream(input_text), mimetype='text/event-stream')
+                    return Response(stream(input_text), mimetype='text/event-stream')
+                elif (model_type == "Llama2"):
+                    model_path = "chatbot/models/llama-2-7b-chat.Q4_K_M.gguf"
+                    llm = LlamaCpp(
+                        model_path=model_path,
+                        n_gpu_layers=n_gpu_layers,
+                        n_batch=n_batch,
+                        callbacks=callbacks,
+                        verbose=True,  # Verbose is required to pass to the callback manager
+                        n_ctx=model_n_ctx
+                    )
+                else: 
+                    llm = GPT4All(model=model_path, n_ctx=model_n_ctx, backend='gptj', callbacks=callbacks, verbose=False)
+                qa = RetrievalQA.from_chain_type(
+                    llm=llm, 
+                    chain_type="stuff", 
+                    retriever=retriever, 
+                    return_source_documents= True, 
+                    chain_type_kwargs={'prompt': qa_prompt}
+                )
+                res = qa(input_text)
+                conversation = Conversation( user_chat = input_text, bot_chat = res['result'], topic_id = topic_id)
                 db.session.add(conversation)
                 db.session.commit()
-                # text_to_speech(bot_chat["answer"])
-                return jsonify({'user_chat': user_chat, 'bot_chat': bot_chat["answer"]})
+            # answer, docs = res['result'], res['source_documents']
+                return Response(res['result'], mimetype='text/event-stream')
+                # bot_chat = get_conversation_chain(vec)({"question": (prompt + user_chat)})
+                # return jsonify({'user_chat': user_chat, 'bot_chat': bot_chat["answer"]})
             else: 
-                llm = GPT4All(model=model_path, n_ctx=model_n_ctx, backend='gptj', callbacks=callbacks, verbose=False)
                 if(model_type == "Llama2"):
                     model_path = "chatbot/models/llama-2-7b-chat.Q4_K_M.gguf"
                     llm = LlamaCpp(
@@ -236,6 +256,8 @@ def add_conversation():
                         verbose=True,  # Verbose is required to pass to the callback manager
                         n_ctx=model_n_ctx
                     )
+                else:
+                    llm = GPT4All(model=model_path, n_ctx=model_n_ctx, backend='gptj', callbacks=callbacks, verbose=False)
                 qa = RetrievalQA.from_chain_type(
                     llm=llm, 
                     chain_type="stuff", 
@@ -267,13 +289,13 @@ def upload_file():
         file_name = uploaded_file.filename
         pdf_record = Pdf.query.filter_by(pdfname= file_name ).first()
         if pdf_record:
-            flash('File pdf đã tồn tại', 'danger')
+            flash('File đã tồn tại', 'danger')
             return 'File uploaded error!'
         else:
             new_pdf = Pdf(pdfname = file_name, user_id=user_id)
             db.session.add(new_pdf)
             db.session.commit()
-            upload_path = os.path.join('.', 'chatPDF', 'pdf', uploaded_file.filename)
+            upload_path = os.path.join('.', 'data', uploaded_file.filename)
             uploaded_file.save(upload_path)
             return 'Tải file thành công!'
     else:
